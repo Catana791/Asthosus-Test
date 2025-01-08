@@ -1,0 +1,60 @@
+type: GenericCrafter
+name: Slag Cooling Mold
+description: Cools down large amounts of molten hot slag using Oasis Water to create Obsidian.
+size: 3
+squareSprite: false
+category: production
+research: 04d-11-geode-cracker
+craftTime: 360
+requirements: [
+  01a-01-item-ferrinite/90
+  01a-02-item-demetite/110
+  01a-07-item-lithium/40
+  01a-12-item-crosium/15
+]
+consumes: {
+  power: 1
+  liquids: [
+    02b-02-liquid-oasis-water/0.2
+    slag/0.5
+  ]
+}
+outputItems: [
+  01a-09-item-obsidian/18
+]
+researchCostMultiplier: 0.15
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      alpha: 0.7
+      padding: 3
+    }
+    {
+      type: DrawParticles
+      color: 3d354b
+      particleRad: 11
+    }
+    {
+      type: DrawParticles
+      color: e78f6c
+      particleRad: 11
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      color: 649197
+      particleRad: 9
+    }
+  ]
+}
+itemCapacity: 50
+craftEffect: [smeltsmoke, turbinegenerate]

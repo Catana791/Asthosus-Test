@@ -1,0 +1,33 @@
+type: ForceProjector
+name: Barrier Projector
+description: When supplied with power, creates a hexagonal shield to protect allied structures and units from damage. May optionally be boosted using Vesmonium.
+size: 3
+squareSprite: false
+shieldHealth: 700
+cooldownNormal: 1.75
+cooldownLiquid: 1.5
+cooldownBrokenBase: 0.35
+coolantConsumption: 0.1
+category: effect
+research: 11k-11-restoration-dome
+requirements: [
+  01a-01-item-ferrinite/160
+  01a-06-item-lodestone/60
+  01a-07-item-lithium/40
+  01a-09-item-obsidian/30
+]
+consumes: {
+  power: 4
+  items: {
+    items: [
+      01a-13-item-barite-webbing/1
+    ]
+    optional: true
+    booster: true
+  }
+}
+radius: 120
+researchCostMultiplier: 0.5
+phaseRadiusBoost: 80
+phaseShieldBoost: 400
+phaseUseTime: 180

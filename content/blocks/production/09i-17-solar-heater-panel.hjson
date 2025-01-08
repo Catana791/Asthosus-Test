@@ -1,0 +1,36 @@
+type: HeaterGenerator
+name: Solar Heater Panel
+description: Produces small amounts of heat and power passively. 
+size: 3
+category: crafting
+research: {
+  parent: 05e-13-heat-distributor
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-07-detriment-valley
+    }
+  ]
+}
+requirements: [
+  01a-01-item-ferrinite/50
+  01a-02-item-demetite/40
+  01a-06-item-lodestone/30
+  01a-07-item-lithium/40
+]
+powerProduction: 0.25
+generateEffect: none
+heatOutput: 2
+researchCostMultiplier: 0.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+      heatColor: 641616A6
+    }
+  ]
+}

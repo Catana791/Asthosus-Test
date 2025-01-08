@@ -1,0 +1,60 @@
+type: VariableReactor
+name: Diffusion Reactor
+description: Generates power by diffusing a mixture of Nontragen and Silicon Tetrafluoride using heat. Explodes violently if insufficient coolant is provided.
+size: 4
+category: power
+research: 07g-11-radiation-power-plant
+requirements: [
+  01a-02-item-demetite/1200
+  01a-06-item-lodestone/400 
+  01a-07-item-lithium/250
+  01a-12-item-crosium/70
+]
+powerProduction: 35
+researchCostMultiplier: 0.05
+maxHeat: 30
+consumes: {
+  liquids: [
+    02b-05-liquid-nontragen/0.133333333
+    02b-01-q-liquid-silicon-tetrafluoride/0.2
+  ]
+}
+liquidCapacity: 60
+explosionMinWarmup: 0.5
+exlosionRadius: 80
+explosionDamage: 2000
+ambientSound: flux
+ambientSoundVolume: 0.13
+// 15 seconds
+unstableSpeed: 0.00111111111
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-05-liquid-nontragen
+      padding: 3
+    }
+    {
+      type: DrawParticles
+      reverse: true
+      particleRad: 28
+      color: 425b54
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      particleRad: 12
+      color: 6b9388
+    }
+    {
+      type: DrawHeatInput
+    }
+  ]
+}

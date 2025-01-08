@@ -1,0 +1,78 @@
+type: AttributeCrafter
+name: Vesmonium Accultor
+description: Creates Vesmonium using Barite and Lignite. Requires power and pressure. Works better on Barite tiles.
+size: 3
+category: crafting
+research: {
+  parent: 09i-08-crosium-infuser  
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-07-detriment-valley
+    }
+    {
+      type: OnSector
+      preset: 19s-08-defringed-webbery
+    }
+  ]
+}
+attribute: barite
+maxBoost: 1.25
+requirements: [
+  01a-02-item-demetite/120
+  01a-07-item-lithium/150
+  01a-11-item-barite/75
+]
+itemCapacity: 50
+liquidCapacity: 50
+squareSprite: false
+researchCostMultiplier: 0.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-01-pressure
+      alpha: 0.1
+      padding: 2.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-01-pressure
+      alpha: 0.15
+      padding: 2.5
+    }
+    {
+      type: DrawFrames
+      frames: 11
+      sine: false
+      interval: 6
+    }
+    {
+      type: DrawWeave
+    }
+    {
+      type: DrawMultiWeave
+    }
+    {
+      type: DrawDefault 
+    }
+  ]
+}
+craftTime: 200
+consumes: {
+  items: [
+    01a-11-item-barite/8
+    01a-03-item-lignite/8
+  ]
+  liquids: [ 
+    02b-01-pressure/0.15
+    02b-04-liquid-liquid-barite/0.2
+  ]
+  power: 4
+}
+outputItem: 01a-13-item-barite-webbing/4
