@@ -1,0 +1,13 @@
+difficulty: 8
+planet: asthosus
+sector: 3
+research: {
+  parent: 20t-03-barite-valley
+  objectives: [
+    01a-14-item-draysten,
+    {
+      type: SectorComplete
+      preset: 20t-03-barite-valley
+    }
+  ]
+}

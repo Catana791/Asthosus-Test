@@ -1,0 +1,13 @@
+captureWave: 30
+difficulty: 2
+planet: asthosus
+sector: 17
+research: {
+  parent: 19s-03-lattice
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-03-lattice
+    }
+  ]
+}

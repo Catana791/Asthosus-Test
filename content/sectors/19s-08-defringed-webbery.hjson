@@ -1,0 +1,14 @@
+difficulty: 8
+planet: asthosus
+sector: 16
+captureWave: 9
+research: {
+  parent: 19s-07-detriment-valley
+  objectives: [
+    01a-12-item-crosium,
+    {
+      type: SectorComplete
+      preset: 19s-07-detriment-valley
+    }
+  ]
+}

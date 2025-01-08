@@ -1,0 +1,13 @@
+captureWave: 50
+difficulty: 5
+planet: asthosus
+sector: 7
+research: {
+  parent: 19s-05-immist
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-05-immist
+    }
+  ]
+}

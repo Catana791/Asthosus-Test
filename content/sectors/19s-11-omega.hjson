@@ -1,0 +1,18 @@
+difficulty: 10
+captureWave: 50
+planet: asthosus
+isLastSector: true
+sector: 20
+research: {
+  parent: 19s-10-furnace-settlement
+  objectives: [
+    01a-12-item-crosium,
+    01a-13-item-barite-webbing,
+    01a-14-item-draysten,
+    03c-16-concite,
+    {
+      type: SectorComplete
+      preset: 19s-10-furnace-settlement
+    }
+  ]
+}

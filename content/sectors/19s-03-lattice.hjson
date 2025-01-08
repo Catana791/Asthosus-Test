@@ -1,0 +1,13 @@
+captureWave: 30
+difficulty: 3
+planet: asthosus
+sector: 1
+research: {
+  parent: 19s-02-ignition
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-02-ignition
+    }
+  ]
+}

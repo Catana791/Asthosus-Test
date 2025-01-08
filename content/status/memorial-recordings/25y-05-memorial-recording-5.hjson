@@ -1,0 +1,9 @@
+research: {
+  parent: 25y-04-memorial-recording-4
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-05-immist
+    }
+  ]
+}

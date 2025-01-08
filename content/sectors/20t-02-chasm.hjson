@@ -1,0 +1,14 @@
+captureWave: 30
+difficulty: 4
+planet: asthosus
+attackAfterWaves: true
+sector: 31
+research: {
+  parent: 19s-04-fulge
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-04-fulge
+    }
+  ]
+}

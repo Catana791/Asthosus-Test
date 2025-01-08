@@ -1,0 +1,9 @@
+research: {
+  parent: 25y-03-memorial-recording-3
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-04-fulge
+    }
+  ]
+}

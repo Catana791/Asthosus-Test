@@ -1,0 +1,13 @@
+captureWave: 30
+difficulty: 6
+planet: asthosus
+sector: 10
+research: {
+  parent: 20t-02-e-clamor
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 20t-02-e-clamor
+    }
+  ]
+}

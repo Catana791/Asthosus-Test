@@ -1,0 +1,9 @@
+research: {
+  parent: 25y-07-memorial-recording-7
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-09-synthesis-facility
+    }
+  ]
+}

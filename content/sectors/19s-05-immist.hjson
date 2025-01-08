@@ -1,0 +1,12 @@
+difficulty: 4
+planet: asthosus
+sector: 13
+research: {
+  parent: 19s-04-fulge
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-04-fulge
+    }
+  ]
+}

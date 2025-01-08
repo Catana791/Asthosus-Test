@@ -1,0 +1,9 @@
+research: {
+  parent: 25y-02-memorial-recording-2
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-03-lattice
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+research: {
+  parent: 11k-01-core-essence
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-01-genesis
+    }
+  ]
+}

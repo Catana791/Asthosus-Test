@@ -1,0 +1,9 @@
+research: {
+  parent: 25y-09-memorial-recording-9
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-10-furnace-settlement
+    }
+  ]
+}

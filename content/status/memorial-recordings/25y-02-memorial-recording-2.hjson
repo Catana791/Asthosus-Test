@@ -1,0 +1,9 @@
+research: {
+  parent: 25y-01-memorial-recording-1
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-02-ignition
+    }
+  ]
+}

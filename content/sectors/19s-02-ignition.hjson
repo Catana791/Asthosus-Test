@@ -1,0 +1,13 @@
+captureWave: 20
+difficulty: 2
+planet: asthosus
+sector: 15
+research: {
+  parent: 19s-01-genesis
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-01-genesis
+    }
+  ]
+}
