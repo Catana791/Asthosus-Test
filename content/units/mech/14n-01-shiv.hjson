@@ -1,0 +1,79 @@
+type: mech
+name: Shiv
+description: Fires electric energy blades at nearby targets. Able to dash a short distance every so often. Strong in numbers, weak in few.
+speed: 0.5
+flying: false
+health: 210
+hitSize: 10
+outlineColor: 44413c
+mechLegColor: 44413c
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 1.1
+    x: 0
+    y: -2.4
+    effect: artilleryTrailSmoke
+    teamColor: true
+    interval: 3
+  }
+]
+  weapons: [
+    {
+      top: false
+      x: -6.1
+      name: shiv-weapon
+      recoil: 0.4
+      shootCone: 45
+        y: 1.25
+        reload: 72
+        rotate: false
+        mirror: true
+        alternate: true
+        shoot: {
+          shots: 2
+          shotDelay: 12
+        }
+        shootSound: energy-blade-launch
+        bullet: {
+          type: BasicBulletType
+          speed: 4
+          lifetime: 32
+          pierce: false
+          damage: 22
+          pierce: true
+          pierceCap: 2
+          width: 28
+          height: 12
+          sprite: asthosus-energy-blade
+          trailEffect: disperseTrail
+          trailInterval: 3
+        }
+    }
+    {  
+      x: 0
+      y: 0
+      display: false
+      rotate: false
+      mirror: false
+      reload: 210
+      shootCone: 5
+      shootSound: energy-blade-hit
+      bullet: {
+        width: 0
+        speed: 8
+        lifetime: 10
+        despawnEffect: none
+        hitEffect: none
+        height: 0
+        collides: false
+        damage: 0
+        pierce: true
+        pierceBuilding: true
+        recoil: -24
+        impact: true
+      }
+    }
+]
+researchCostMultiplier: 1.5
+research: 10j-00-ground-mounting-bay

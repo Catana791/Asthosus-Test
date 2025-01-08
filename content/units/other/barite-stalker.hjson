@@ -1,0 +1,69 @@
+type: legs
+legCount: 7
+legLength: 14
+legPairOffset: 1
+legSpeed: 0.23
+hovering: true
+immunities: [burning, asthosus-13m-02-status-radiated, asthosus-13m-03-status-infested]
+name: Barite Stalker
+description: A strange lifeform that was born in Asthosus' radioactive biomes.
+health: 780
+armor: 4
+speed: 1
+drawCell: false
+stepShake: 0
+hitSize: 24
+drag: 0.4
+itemCapacity: 0
+outlineColor: 42413e
+aimDst: 240
+weapons: [
+  {
+    name: medium-barite-weapon
+    x: 0
+    y: 0
+    mirror: false
+    rotate: false
+    reload: 76
+    recoil: 2
+    inaccuracy: 0
+    shootSound: splash
+    bullet: {
+      type: LiquidBulletType
+      liquid: 02b-04-liquid-liquid-barite
+      orbSize: 2
+      damage: 60
+      sprite: shell
+      pierce: true
+      pierceCap: 2
+      knockback: 1
+      speed: 12
+      lifetime: 15
+      puddleSize: 96
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+      trailColor: bab4ae
+      trailInterval: 5
+      trailRotation: true
+      trailLength: 24
+      trailWidth: 1
+      trailEffect: {
+        type: ParticleEffect
+        followParent: true
+        rotWithParent: true
+        useRotation: true
+        randLength: false
+        lifetime: 45
+        particles: 1
+        length: 0
+        colorFrom: ffffff
+        colorTo: bab4ae
+        sizeFrom: 0
+        sizeTo: 12
+        region: asthosus-sound-wave
+        interp: pow2Out
+      }
+    }
+  }
+]

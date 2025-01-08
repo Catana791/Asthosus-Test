@@ -1,0 +1,88 @@
+type: mech
+name: Teraze
+description: Fires homing shells at enemies. Cannot cross terrain.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.08
+outlineColor: 44413c
+speed: 1.1
+rotateSpeed: 5
+accel: 0.09
+groundLayer: 60
+health: 660
+armor: 3
+hitSize: 9
+researchCostMultiplier: 3
+research: 16a-01-parave
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -8
+    interval: 5
+    minVelocity: 0.6
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -5.2
+    y: -5.5
+    interval: 7
+    minVelocity: 0.6
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 5.2
+    y: -5.5
+    interval: 7
+    minVelocity: 0.6
+  }
+]
+engines: [
+  {
+    x: 0
+    y: -8
+    radius: 2.5
+    rotation: -90
+  }
+  {
+    x: -5.2
+    y: -5.5
+    radius: 1.4
+    rotation: -90
+  }
+  {
+    x: 5.2
+    y: -5.5
+    radius: 1.4
+    rotation: -90
+  }
+]
+itemCapacity: 0
+engineSize: 0
+useEngineElevation: false
+weapons: [
+  {
+    x: 2.8
+    y: 4
+    mirror: true
+    alternate: true
+    reload: 12
+    rotate: false
+    shootSound: missile
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      spawnUnit: asthosus-18r-02-teeny-tiny-missile-2
+    }
+  }
+]

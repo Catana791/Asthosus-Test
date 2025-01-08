@@ -1,0 +1,216 @@
+type: mech
+name: Everse
+description: Fires a burst of rupturing railgun bolts as well as missiles at enemies. Cannot cross terrain.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.08
+outlineColor: 44413c
+speed: 0.8
+rotateSpeed: 5
+accel: 0.06
+groundLayer: 60
+health: 16790
+armor: 8
+hitSize: 30
+researchCostMultiplier: 2.5
+research: 16a-04-tequant
+parts: [
+  {
+    type: FlarePart
+    x: 0
+    y: -2
+    color1: 6e5b9a
+    color2: 473b64
+    spinSpeed: -0.65
+    radius: 15
+    followRotation: true
+    sides: 4
+  }
+  {
+    type: FlarePart
+    x: 0
+    y: -2
+    color1: 6e5b9a
+    color2: 473b64
+    spinSpeed: 0.89
+    radius: 13
+    sides: 8
+    followRotation: true
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    x: 0
+    y: -43
+    teamColor: true
+    effect: instTrail
+    interval: 6
+    rotateEffect: true
+  }
+  {
+    type: MoveEffectAbility
+    x: 21
+    y: -34
+    teamColor: true
+    effect: missileTrail
+    interval: 7
+  }
+  {
+    type: MoveEffectAbility
+    x: -21
+    y: -34
+    teamColor: true
+    effect: missileTrail
+    interval: 7
+  }
+]
+engines: [
+  {
+    x: 0
+    y: -34
+    radius: 8
+    rotation: -90
+  }
+  {
+    x: 21
+    y: -33
+    radius: 3
+    rotation: -90
+  }
+  {
+    x: -21
+    y: -33
+    radius: 3
+    rotation: -90
+  }
+]
+itemCapacity: 0
+engineSize: 0
+useEngineElevation: false
+weapons: [
+  {
+    x: 0
+    y: -4
+    reload: 356
+    rotate: false
+    mirror: false
+    shoot: {
+      shots: 3
+      shotDelay: 60
+    }
+    shootSound: railgun
+    bullet: {
+      type: RailBulletType
+      maxRange: 320
+      length: 320
+      pierceDamageFactor: 0.75
+      scaleLife: true
+      pointEffectSpace: 10
+      lifetime: 40
+      damage: 100
+      inaccuracy: 4
+      splashDamage: 300
+      splashDamageRadius: 40
+      buildingDamageMultiplier: 0.5
+      hitEffect: explosion
+      endEffect: explosion
+      suppressionDuration: 240
+      suppressionRange: 96
+      pointEffect: {
+        type: ParticleEffect
+        particles: 5
+        colorFrom: ffd2ae
+        colorTo: e58956
+        length: 1
+        baseLength: 2
+        rotWithParent: true
+        sizeFrom: 6
+        sizeTo: 3
+        sizeInterp: pow2Out
+      }
+      hitEffect: none
+      despawnEffect: none
+      despawnHit: true
+    }
+  }
+  {
+      name: everse-launcher
+      x: 24
+      layerOffset: -1
+      y: 21
+      mirror: true
+      alternate: false
+      rotate: false
+      baseRotation: -45
+      shootCone: 360
+      shootSound: missile
+      reload: 9
+      bullet: {
+        type: MissileBulletType
+        homingPower: 0.09
+        homingDelay: 10
+        width: 8
+        height: 14
+        speed: 3
+        lifetime: 90
+        damage: 52
+        pierce: true
+        pierceCap: 2
+      }
+    }
+    {
+      name: everse-launcher
+      layerOffset: -1
+      x: 27
+      y: 10
+      mirror: true
+      alternate: true
+      rotate: false
+      baseRotation: -45
+      shootSound: missileLaunch
+      reload: 7
+      shootCone: 360
+      bullet: {
+        type: MissileBulletType
+        homingPower: 0.09
+        homingDelay: 10
+        width: 8
+        height: 14
+        speed: 3
+        lifetime: 90
+        damage: 38
+        pierce: true
+        pierceCap: 2
+      }
+    }
+    {
+      name: everse-launcher
+      layerOffset: -1
+      x: 26.5
+      y: -21
+      mirror: true
+      alternate: true
+      rotate: false
+      baseRotation: -45
+      shootSound: missileLaunch
+      reload: 15
+      shootCone: 360
+      bullet: {
+        type: MissileBulletType
+        homingPower: 0.09
+        homingDelay: 10
+        width: 8
+        height: 14
+        speed: 3
+        lifetime: 90
+        damage: 71
+        pierce: true
+        pierceCap: 2
+      }
+    }
+]

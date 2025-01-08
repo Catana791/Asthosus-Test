@@ -1,0 +1,139 @@
+type: legs
+legCount: 9
+legLength: 18
+legGroupSize: 3
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 7
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.95
+legForwardScl: 0.9
+legMoveSpace: 1
+legSpeed: 0.23
+hovering: true
+immunities: [burning, asthosus-13m-02-status-radiated, asthosus-13m-03-status-infested]
+name: Barite Scourge
+description: A strange lifeform that was born in Asthosus' radioactive biomes.
+health: 1700
+armor: 4
+speed: 0.8
+drawCell: false
+stepShake: 0
+hitSize: 28
+drag: 0.4
+itemCapacity: 0
+outlineColor: 42413e
+aimDst: 160
+weapons: [
+  {
+    name: medium-barite-weapon
+    rotateSpeed: 1.2
+    x: -9.2
+    y: 0
+    mirror: true
+    rotate: true
+    alternate: true
+    reload: 76
+    recoil: 2
+    inaccuracy: 0
+    shootSound: splash
+    bullet: {
+      type: LiquidBulletType
+      liquid: 02b-04-liquid-liquid-barite
+      orbSize: 2
+      damage: 60
+      sprite: shell
+      pierce: true
+      pierceCap: 2
+      knockback: 1
+      speed: 12
+      lifetime: 15
+      puddleSize: 96
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+      trailColor: bab4ae
+      trailInterval: 5
+      trailRotation: true
+      trailLength: 24
+      trailWidth: 1
+      trailEffect: {
+        type: ParticleEffect
+        followParent: true
+        rotWithParent: true
+        useRotation: true
+        randLength: false
+        lifetime: 45
+        particles: 1
+        length: 0
+        colorFrom: ffffff
+        colorTo: bab4ae
+        sizeFrom: 0
+        sizeTo: 12
+        region: asthosus-sound-wave
+        interp: pow2Out
+      }
+    }
+  }
+  {
+    x: 0
+    y: 12
+    mirror: false
+    rotate: false
+    reload: 92
+    shootSound: splash
+    inaccuracy: 25
+    shoot: {
+      shots: 6
+    } 
+    bullet: {
+      type: LiquidBulletType
+      orbSize: 3
+      type: LiquidBulletType
+      liquid: 02b-04-liquid-liquid-barite
+      orbSize: 3
+      damage: 15
+      pierce: true
+      pierceCap: 1
+      knockback: 1
+      speed: 2
+      lifetime: 10
+      puddleSize: 256
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+    }
+  }
+  {
+    x: 5
+    y: 10
+    mirror: true
+    rotate: false
+    reload: 32
+    shootSound: splash
+    inaccuracy: 25
+    shoot: {
+      shots: 3
+      shotDelay: 2
+    } 
+    bullet: {
+      type: LiquidBulletType
+      orbSize: 3
+      type: LiquidBulletType
+      liquid: 02b-04-liquid-liquid-barite
+      orbSize: 3
+      damage: 12
+      pierce: true
+      pierceCap: 1
+      knockback: 1
+      speed: 2
+      lifetime: 45
+      puddleSize: 32
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+    }
+  }
+]

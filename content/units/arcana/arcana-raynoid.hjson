@@ -1,0 +1,153 @@
+type: legs
+name: Arcana Raynoid
+description: A crab-like creature that is heavily armored and has dangerous offensive capabilities.
+speed: 0.4
+drag: 0.1
+hitSize: 20
+rotateSpeed: 2
+armor: 7
+health: 3210
+stepShake: 1
+outlineColor: 232028
+legCount: 8
+legLength: 20
+legGroupSize: 4
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 7
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.95
+legForwardScl: 0.9
+legMoveSpace: 1
+hovering: true
+shadowElevation: 0.2
+groundLayer: 74
+abilities: [
+  {
+    type: LiquidExplodeAbility
+    liquid: asthosus-02b-07-arcanoma
+    amount: 240
+  }
+  {
+    type: LiquidRegenAbility
+    liquid: slag
+  }
+  {
+    type: SpawnDeathAbility
+    amount: 2
+    faceOutwards: false
+    amount: 2
+    randAmount: 2
+    unit: arcana-blob
+  }
+]
+weapons: [
+  {
+    continuous: true
+    alwaysContinuous: true
+    name: arcana-crab-weapon-left
+    mirror: false
+    top: false
+    layerOffset: -0.0001
+    x: -11
+    y: 8.5
+    shootSound: none
+    rotate: false
+    bullet: {
+      type: ContinuousFlameBulletType
+      drawFlare: false
+      hitColor: d77751
+      colors: [4e4277, 645699, 8270c0, b7a9e9, ffffff]
+      hitColor: 2e293a
+      damageInterval: 10
+      damage: 10
+      length: 120
+      width: 2
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 3
+    }
+  }
+  {
+    name: arcana-crab-weapon-right
+    mirror: false
+    rotate: false
+    top: false
+    layerOffset: -0.0001
+    x: 11
+    y: 8.5
+    shootSound: shoot-laser
+    chargeSound: short-laser-charge
+    reload: 134
+    shoot: {
+      firstShotDelay: 60
+      shots: 3
+      shotDelay: 10
+    }
+    bullet: {
+      type: MissileBulletType
+      homingPower: 0.95
+      homingDelay: 0
+      homingRange: 270
+      speed: 3
+      lifetime: 90
+      weaveScale: 3
+      weaveMag: 3
+      width: 4
+      height: 16
+      trailLength: 9
+      trailWidth: 1
+      frontColor: 9587cc
+      backColor: 61568a
+      trailColor: 61568a
+      pierce: false
+      damage: 7
+      hitEffect: none
+      despawnEffect: none
+      pierce: true
+      pierceBuilding: true
+
+      fragBullets: 5
+      fragOnHit: true
+      fragOnAbsorb: true
+      fragRandomSpread: 360
+      fragLifeMin: 0.7
+      fragVelocityMin: 0.7
+      fragBullet: {
+        type: MissileBulletType
+        homingPower: 0.05
+        speed: 1
+        lifetime: 90
+        weaveScale: 3
+        weaveMag: 3
+        width: 3
+        height: 6
+        trailLength: 4
+        trailWidth: 1
+        frontColor: 9587cc
+        backColor: 61568a
+        trailColor: 61568a
+        pierce: false
+        damage: 6
+        hitEffect: none
+        despawnEffect: none
+
+        fragBullets: 1
+        fragBullet: {
+          type: ExplosionBulletType
+          killShooter: false
+          splashDamage: 5
+          splashDamageRadius: 16
+          splashDamagePierce: true
+          hitSound: dullExplosion
+          despawnSound: dullExplosion
+          incendChance: 0.8
+          incendAmount: 6
+          incendSpread: 8
+        }
+      }
+    }  
+  }
+]

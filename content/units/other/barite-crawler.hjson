@@ -1,0 +1,51 @@
+type: legs
+legCount: 5
+legPairOffset: 1
+legLength: 11
+legSpeed: 0.23
+immunities: [burning, asthosus-13m-02-status-radiated, asthosus-13m-03-status-infested]
+hovering: true
+name: Barite Crawler
+description: A strange lifeform that was born in Asthosus' radioactive biomes.
+health: 300
+armor: 4
+speed: 1.2
+stepShake: 0
+drawCell: false
+hitSize: 16
+drag: 0.4
+itemCapacity: 0
+outlineColor: 42413e
+aimDst: 160
+weapons: [
+  {
+    name: small-barite-weapon
+    x: -7.6
+    y: 0
+    mirror: true
+    alternate: true
+    rotate: false
+    reload: 76
+    inaccuracy: 9
+    shoot: {
+      shots: 3
+      shotDelay: 2
+    }
+    shootSound: splash
+    bullet: {
+      type: LiquidBulletType
+      liquid: 02b-04-liquid-liquid-barite
+      orbSize: 3
+      damage: 5
+      pierce: true
+      pierceCap: 1
+      knockback: 1
+      speed: 2
+      lifetime: 32
+      puddleSize: 16
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+    }
+  }
+]
