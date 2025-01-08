@@ -1,0 +1,30 @@
+type: DirectionalForceProjector
+name: Large Projector Wall
+description: A large wall made from Vesmonium that is capable of emitting a one-time use directional shield. Explodes on destruction, briefly stunning enemies hit. Fortified against weaker attacks.
+size: 2
+health: 2500
+cooldownBrokenBase: 1200
+cooldownNormal: 1200
+cooldownLiquid: 1200
+length: 8
+width: 8
+padSize: 1
+shieldHealth: 600
+category: defense
+research: 08h-13-webbing-wall-small
+requirements: [
+  01a-13-item-barite-webbing/18
+  01a-07-item-lithium/6
+]
+armor: 4
+researchCostMultiplier: 0.5
+destroyBullet: {
+  type: BulletType
+  pierce: true
+  damage: 0
+  splashDamage: 60
+  splashDamageRadius: 40
+  status: asthosus-13m-04-status-energy-phasing
+  statusDuration: 60
+}
+destroyBulletSameTeam: true

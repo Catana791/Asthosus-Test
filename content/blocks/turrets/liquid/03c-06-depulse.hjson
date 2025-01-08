@@ -1,0 +1,90 @@
+type: ContinuousLiquidTurret
+name: Depulse
+description: Creates a constant, low-damaging beam that knocks back ground units.
+size: 2
+category: turret
+outlineColor: 42413e
+outlineColor: 42413e
+liquidConsumed: 0.05
+targetInterval: 5
+targetUnderBlocks: false
+range: 144
+targetAir: false
+shootY: 4
+loopSound: pressure-release
+researchCostMultiplier: 0.5
+shootSound: none
+loopSoundVolume: 0.6
+research: {
+   parent: 03c-01-catapult
+   objectives: [
+      03c-01-catapult,
+      {
+         type: OnSector
+         preset: 19s-02-ignition
+      }
+   ]
+}
+researchCost: [
+   01a-02-item-demetite/900
+   01a-06-item-lodestone/700
+]
+requirements: [
+  01a-02-item-demetite/80
+  01a-06-item-lodestone/50
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      mirror: true
+      suffix: -wing
+      under: true
+      progress: warmup
+      moveRot: -24
+      moveX: 2
+      moveY: 1
+    }
+  ]
+}
+ammoTypes: {
+  02b-01-pressure: {
+    width: 1.7
+    drawFlare: false
+    hitColor: ffffffCC
+    type: ContinuousFlameBulletType
+    damage: 1
+    length: 144
+    knockback: 2
+    pierceCap: 3
+    colors: [ffffff80, ffffffB3, ffffffCC, ffffff]
+    lightColor: ffffffCC
+  }
+  02b-01-q-liquid-silicon-tetrafluoride: {
+    width: 1.7
+    drawFlare: false
+    hitColor: e2cf7aCC
+    type: ContinuousFlameBulletType
+    damage: 3
+    length: 144
+    knockback: 2
+    pierceCap: 4
+    colors: [b7a76180, e2cf7aB3, ffffffCC, ffffff]
+    lightColor: e2cf7aCC
+  }
+  02b-05-liquid-nontragen: {
+    width: 1.7
+    drawFlare: false
+    hitColor: e2cf7aCC
+    type: ContinuousFlameBulletType
+    damage: 4
+    pierceArmor: false
+    length: 144
+    knockback: 2
+    pierceCap: 4
+    colors: [4f9d9780, 45bbb2B3, 84dca0CC, ffffff]
+    lightColor: e2cf7aCC
+  }
+}

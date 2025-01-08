@@ -1,0 +1,238 @@
+type: ItemTurret
+name: Verite
+description: Long-range, high-precision turret. Fires piercing rounds at enemies. Requires pressure.
+size: 3
+reload: 600
+shootSound: shoot-heavy-cannon
+outlineColor: 42413e
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -nub
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: -4
+    }
+  ]
+}
+rotateSpeed: 2
+shootCone: 10
+category: turret
+research: 03c-07-subtile
+squareSprite: false
+researchCostMultiplier: 0.5
+range: 480
+requirements: [
+  01a-06-item-lodestone/400
+  01a-07-item-lithium/400
+  01a-11-item-barite/280
+  01a-14-item-draysten/45
+]
+consumes: {
+  liquid: 02b-01-pressure/0.3
+}
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.5
+}
+cooldownTime: 300
+chargeSound: short-laser-charge
+shoot: {
+  firstShotDelay: 60
+}
+shootEffect: shootTitan
+smokeEffect: shootSmokeTitan
+coolantMultiplier: 0.25
+ammoTypes: {
+  01a-12-item-crosium: {
+    type: BasicBulletType
+    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
+    speed: 5
+    lifetime: 96
+    width: 10
+    height: 18
+    hitEffect: hitBulletColor
+    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
+    pierce: true
+    damage: 375
+    splashDamage: 125
+    splashDamageRadius: 64
+    despawnSound: shoot-mortar
+    trailChance: -1
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 18
+    trailWidth: 4
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalBullets: 2
+    intervalSpread: 90
+    intervalBullet: {
+      type: LaserBulletType
+      despawnSound: spark
+      colors: [eab678, ffd27e, ffffff]
+      sideWidth: 2
+      sideLength: 16
+      sideAngle: 45
+      length: 60
+      width: 4
+      damage: 75
+      pierce: true
+    }
+    fragBullets: 3
+    fragRandomSpread: 0
+    fragSpread: 120
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragBullet: {
+      type: MissileBulletType
+      despawnSound: dull-explosion
+      speed: 2
+      lifetime: 30
+      pierce: true
+      pierceBuilding: true  
+      damage: 50
+      fragBullets: 1
+      fragBullet: {
+        type: ExplosionBulletType
+        despawnSound: explosion
+        killShooter: false
+        splashDamage: 100
+        splashDamageRadius: 32
+      }
+    }
+  }
+  01a-13-item-barite-webbing: {
+    type: BasicBulletType
+    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
+    speed: 5
+    lifetime: 96
+    width: 10
+    height: 18
+    hitEffect: hitBulletColor
+    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
+    pierce: true
+    damage: 450
+    splashDamage: 150
+    splashDamageRadius: 64
+    despawnSound: shoot-mortar
+    trailChance: -1
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 18
+    trailWidth: 4
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalBullets: 2
+    intervalSpread: 90
+    intervalBullet: {
+      type: LaserBulletType
+      despawnSound: spark
+      colors: [eab678, ffd27e, ffffff]
+      sideWidth: 2
+      sideLength: 16
+      sideAngle: 45
+      length: 60
+      width: 4
+      damage: 100
+      pierce: true
+      pierceArmor: true
+    }
+    fragBullets: 3
+    fragRandomSpread: 0
+    fragSpread: 120
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragBullet: {
+      type: MissileBulletType
+      despawnSound: dull-explosion
+      speed: 2
+      lifetime: 30
+      pierce: true
+      pierceBuilding: true  
+      damage: 75
+      fragBullets: 1
+      fragBullet: {
+        type: ExplosionBulletType
+        despawnSound: explosion
+        killShooter: false
+        splashDamage: 150
+        splashDamageRadius: 32
+      }
+    }
+  }
+  01a-14-item-draysten: {
+    type: BasicBulletType
+    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
+    speed: 5
+    lifetime: 96
+    width: 10
+    height: 18
+    hitEffect: hitBulletColor
+    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
+    pierce: true
+    damage: 600
+    splashDamage: 200
+    splashDamageRadius: 64
+    despawnSound: shoot-mortar
+    trailChance: -1
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 18
+    trailWidth: 4
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalBullets: 2
+    intervalSpread: 90
+    intervalBullet: {
+      type: LaserBulletType
+      despawnSound: spark
+      colors: [eab678, ffd27e, ffffff]
+      sideWidth: 2
+      sideLength: 16
+      sideAngle: 45
+      length: 60
+      width: 4
+      damage: 125
+      pierce: true
+      pierceArmor: true
+    }
+    fragBullets: 3
+    fragRandomSpread: 0
+    fragSpread: 120
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragBullet: {
+      type: MissileBulletType
+      despawnSound: dull-explosion
+      speed: 2
+      lifetime: 30
+      pierce: true
+      pierceBuilding: true  
+      damage: 100
+      fragBullets: 1
+      fragBullet: {
+        type: ExplosionBulletType
+        despawnSound: explosion
+        killShooter: false
+        splashDamage: 200
+        splashDamageRadius: 32
+      }
+    }
+  }
+}

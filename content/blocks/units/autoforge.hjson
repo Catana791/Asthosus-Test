@@ -1,0 +1,12 @@
+type: Junction
+name: Missile Autoforge
+description: A forge, creating missiles. Used for hovering unit production. 
+size: 2
+customShadow: true
+placeablePlayer: false
+requirements: [
+  01a-02-item-demetite/12
+  01a-07-item-lithium/6
+]
+research: 10j-03-hover-mounting-bay
+researchCostMultiplier: 0.25

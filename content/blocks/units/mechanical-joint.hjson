@@ -1,0 +1,12 @@
+type: Wall
+name: Mechanical Joint
+description: A joint used for legged unit production. 
+size: 2
+customShadow: true
+placeablePlayer: false
+requirements: [
+  01a-02-item-demetite/2
+  01a-06-item-lodestone/4
+]
+research: 10j-00-ground-mounting-bay
+researchCostMultiplier: 0.25
