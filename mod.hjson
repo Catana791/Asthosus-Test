@@ -10,3 +10,5 @@ minGameVersion: 146
 version: "1"
 displayName: "Asthosus Test"
 subtitle: "Experimental amounts of sand!"
+hiddenOnBrowser: true
+hidden: true
