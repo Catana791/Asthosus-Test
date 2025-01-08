@@ -1,0 +1,5 @@
+type: Floor
+name: Red Sand Glass
+description: Scorched red sand.
+albedo: 0.1
+variants: 3

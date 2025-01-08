@@ -1,0 +1,6 @@
+type: Floor
+name: Hive Tile
+variants: 3
+status: asthosus-13m-03-status-infested
+statusDuration: 120
+speedMultiplier: 0.4

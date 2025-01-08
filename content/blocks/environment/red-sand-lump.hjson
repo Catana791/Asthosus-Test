@@ -1,0 +1,7 @@
+type: TallBlock
+name: Red Sand Lump
+variants: 2
+clipSize: 64
+shadowAlpha: 0.5
+shadowOffset: -1.25
+customShadow: true
