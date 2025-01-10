@@ -227,7 +227,8 @@ lifetime: 1
     shootSound: shoot-laser
     shoot: {
       shots: 2
-      firstShotDelay: 35
+      shotDelay: 35
+      firstShotDelay: 60
     }
     chargeSound: short-laser-charge
     rotate: false
@@ -256,6 +257,7 @@ lifetime: 1
 		frontColor: ffbe7f
 		backColor: ffbe7f
         	speed: 8
+		inaccuracy: 3
 		lifetime: 18
 		damage: 12
 		splashDamage: 56
