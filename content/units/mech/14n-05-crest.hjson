@@ -260,9 +260,13 @@ lifetime: 1
 		inaccuracy: 3
 		lifetime: 15
 		damage: 12
-		splashDamage: 56
+		splashDamage: 44
 		splashDamageRadius: 16
 		keepVelocity: false
+		lightning: 3
+		lightningLength: 3
+		lightningLengthRand: 1
+		lightningDamage: 4
 	}
      }
   }
