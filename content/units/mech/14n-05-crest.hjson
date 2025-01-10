@@ -238,15 +238,15 @@ lifetime: 1
     velocityRnd: 0.4
     bullet: {
 	type: BasicBulletType
-	height: 26
-	width: 3
+	height: 54
+	width: 6
 	pierce: true
 	pierceCap: 2
 	pierceBuilding: true
-	frontColor: f89692
-	backColor: d46f6b
-        speed: 6
-	lifetime: 22
+	frontColor: ffbe7f
+	backColor: ffbe7f
+        speed: 8
+	lifetime: 18
 	damage: 36		
 	splashDamage: 200
 	splashDamageRadius: 16
