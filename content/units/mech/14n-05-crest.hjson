@@ -249,8 +249,8 @@ lifetime: 1
 	fragLifeMax: 1
 	fragBullet: {
 		type: BasicBulletType
-		height: 54
-		width: 6
+		height: 48
+		width: 5
 		pierce: true
 		pierceCap: 2
 		pierceBuilding: true
@@ -265,8 +265,9 @@ lifetime: 1
 		keepVelocity: false
 		lightning: 3
 		lightningLength: 3
-		lightningLengthRand: 1
+		lightningLengthRand: 2
 		lightningDamage: 4
+		lightningColor: ffbe7f
 	}
      }
   }
