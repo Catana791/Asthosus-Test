@@ -227,7 +227,7 @@ lifetime: 1
     shootSound: shoot-laser
     shoot: {
       shots: 2
-      shotDelay: 15
+      shotDelay: 10
       firstShotDelay: 60
     }
     chargeSound: short-laser-charge
@@ -256,9 +256,9 @@ lifetime: 1
 		pierceBuilding: true
 		frontColor: ffbe7f
 		backColor: ffbe7f
-        	speed: 8
+        	speed: 9
 		inaccuracy: 3
-		lifetime: 18
+		lifetime: 15
 		damage: 12
 		splashDamage: 56
 		splashDamageRadius: 16
