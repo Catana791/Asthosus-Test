@@ -248,8 +248,8 @@ lifetime: 1
 	backColor: ffbe7f
         speed: 8
 	lifetime: 18
-	damage: 12	
-	splashDamage: 70
+	damage: 16
+	splashDamage: 82
 	splashDamageRadius: 16
 	keepVelocity: false
     }
