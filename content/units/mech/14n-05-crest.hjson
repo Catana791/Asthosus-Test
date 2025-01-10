@@ -245,8 +245,8 @@ lifetime: 1
 	pierceBuilding: true
 	frontColor: f89692
 	backColor: d46f6b
-        speed: 4
-	lifetime: 18
+        speed: 6
+	lifetime: 22
 	damage: 36		
 	splashDamage: 200
 	splashDamageRadius: 16
