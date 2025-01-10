@@ -223,36 +223,46 @@ lifetime: 1
     x: 0
     y: 1
     layerOffset: -0.01
-    reload: 68
+    reload: 136
     shootSound: shoot-laser
-    inaccuracy: 18
-    velocityRnd: 0.28
     shoot: {
-      shots: 14
-      firstShotDelay: 60
+      shots: 2
+      firstShotDelay: 35
     }
     chargeSound: short-laser-charge
     rotate: false
     mirror: false
     layerOffset: -0.01
     shake: 2
-    velocityRnd: 0.4
     bullet: {
-	type: BasicBulletType
-	height: 54
-	width: 6
-	pierce: true
-	pierceCap: 2
-	pierceBuilding: true
-	frontColor: ffbe7f
-	backColor: ffbe7f
-        speed: 8
-	lifetime: 18
-	damage: 12
-	splashDamage: 56
-	splashDamageRadius: 16
-	keepVelocity: false
-    }
+	instantDisappear: true
+	damage: 0
+	despawnEffect: none
+	hitEffect: none
+	collides: false
+	fragBullets: 14
+	fragRandomSpread: 18
+	fragVelocityMin: 0.6
+	fragVelocityMax: 1
+	fragLifeMin: 0.9
+	fragLifeMax: 1
+	fragBullet: {
+		type: BasicBulletType
+		height: 54
+		width: 6
+		pierce: true
+		pierceCap: 2
+		pierceBuilding: true
+		frontColor: ffbe7f
+		backColor: ffbe7f
+        	speed: 8
+		lifetime: 18
+		damage: 12
+		splashDamage: 56
+		splashDamageRadius: 16
+		keepVelocity: false
+	}
+     }
   }
 ]
 research: 14n-04-apex
