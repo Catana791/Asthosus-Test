@@ -249,7 +249,7 @@ lifetime: 1
         speed: 8
 	lifetime: 18
 	damage: 12
-	splashDamage: 72
+	splashDamage: 56
 	splashDamageRadius: 16
 	keepVelocity: false
     }
