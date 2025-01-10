@@ -222,7 +222,7 @@ lifetime: 1
   {
     x: 0
     y: -3
-    reload: 203
+    reload: 68
     shootSound: shoot-laser
     inaccuracy: 16
     velocityRnd: 0.21
@@ -247,8 +247,8 @@ lifetime: 1
 	backColor: ffbe7f
         speed: 8
 	lifetime: 18
-	damage: 36		
-	splashDamage: 200
+	damage: 12	
+	splashDamage: 70
 	splashDamageRadius: 16
     }
   }
