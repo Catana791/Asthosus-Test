@@ -221,11 +221,12 @@ lifetime: 1
   }
   {
     x: 0
-    y: -3
+    y: 1
+    layerOffset: -0.01
     reload: 68
     shootSound: shoot-laser
-    inaccuracy: 16
-    velocityRnd: 0.21
+    inaccuracy: 18
+    velocityRnd: 0.28
     shoot: {
       shots: 14
       firstShotDelay: 60
@@ -250,6 +251,7 @@ lifetime: 1
 	damage: 12	
 	splashDamage: 70
 	splashDamageRadius: 16
+	keepVelocity: false
     }
   }
 ]
