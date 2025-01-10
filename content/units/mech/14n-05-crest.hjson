@@ -223,32 +223,33 @@ lifetime: 1
     x: 0
     y: -3
     reload: 203
-    shootSound: shoot-dull
-    inaccuracy: 9
+    shootSound: shoot-laser
+    inaccuracy: 16
     velocityRnd: 0.21
     shoot: {
       shots: 14
-      shotDelay: 8
+      firstShotDelay: 60
     }
+    chargeSound: short-laser-charge
     rotate: false
     mirror: false
     layerOffset: -0.01
     shake: 2
-	velocityRnd: 0.06
+    velocityRnd: 0.4
     bullet: {
-		type: BasicBulletType
-		length: 16
-		width: 2
-		pierce: true
-		pierceCap: 1
-		pierceBuilding: true
-		frontColor: f89692
-		backColor: d46f6b
+	type: BasicBulletType
+	height: 26
+	width: 3
+	pierce: true
+	pierceCap: 2
+	pierceBuilding: true
+	frontColor: f89692
+	backColor: d46f6b
         speed: 4
-		lifetime: 18
-		damage: 36
-		splashDamage: 200
-		splashDamageRadius: 16
+	lifetime: 18
+	damage: 36		
+	splashDamage: 200
+	splashDamageRadius: 16
     }
   }
 ]
