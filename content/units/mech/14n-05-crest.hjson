@@ -227,7 +227,7 @@ lifetime: 1
     shootSound: shoot-laser
     shoot: {
       shots: 2
-      shotDelay: 35
+      shotDelay: 15
       firstShotDelay: 60
     }
     chargeSound: short-laser-charge
@@ -241,8 +241,8 @@ lifetime: 1
 	despawnEffect: none
 	hitEffect: none
 	collides: false
-	fragBullets: 14
-	fragRandomSpread: 18
+	fragBullets: 16
+	fragRandomSpread: 32
 	fragVelocityMin: 0.6
 	fragVelocityMax: 1
 	fragLifeMin: 0.9
