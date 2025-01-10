@@ -227,32 +227,28 @@ lifetime: 1
     inaccuracy: 9
     velocityRnd: 0.21
     shoot: {
-      shots: 7
+      shots: 14
       shotDelay: 8
     }
     rotate: false
     mirror: false
     layerOffset: -0.01
     shake: 2
+	velocityRnd: 0.06
     bullet: {
-      type: BasicBulletType
-      sprite: shell
-      trailChance: -1
-      trailWidth: 2
-      trailLength: 16
-      speed: 3
-      width: 11
-      height: 17
-      lifetime: 45
-      damage: 90
-      splashDamage: 190
-      shootEffect: surgeCruciSmoke
-      smokeEffect: surgeCruciSmoke
-      splashDamageRadius: 16
-      despawnUnitCount: 1
-      despawnSound: dullExplosion
-      despawnUnitRadius: 1
-      despawnUnit: asthosus-18r-11-lightning-emitter
+		type: BasicBulletType
+		length: 16
+		width: 2
+		pierce: true
+		pierceCap: 1
+		pierceBuilding: true
+		frontColor: f89692
+		backColor: d46f6b
+        speed: 4
+		lifetime: 18
+		damage: 36
+		splashDamage: 200
+		splashDamageRadius: 16
     }
   }
 ]
