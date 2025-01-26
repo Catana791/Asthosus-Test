@@ -232,12 +232,12 @@ weapons: [
   }
   {
     x: 0
-    y: -4
+    y: -5
     rotate: false
     mirror: false
     alwaysContinuous: true
     shoot: {
-      firstShotDelay: 180
+      firstShotDelay: 210
     }
     shootSound: laserbeam
     shootCone: 360
@@ -250,11 +250,11 @@ weapons: [
       width: 1
       damage: 1
       hitColor: d77751
-      shake: 1
+      shake: 0.5
       colors: [d77751, e78f6c, fca988, ffcdba, ffffff]
       hitEffect: none
       despawnEffect: none
-      flareLength: 2
+      flareLength: 6
     }
   }
 ]
