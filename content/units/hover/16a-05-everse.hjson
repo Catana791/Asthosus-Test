@@ -177,13 +177,13 @@ weapons: [
     }
   }
   {
-    x: -6.5
-    y: 16
+    x: -7
+    y: 16.25
     rotate: false
     mirror: false
     alwaysContinuous: true
     shoot: {
-      firstShotDelay: 90
+      firstShotDelay: 120
     }
     shootSound: laserbeam
     shootCone: 360
@@ -192,7 +192,34 @@ weapons: [
     shootCone: 360
     bullet: {
       type: ContinuousFlameBulletType
-      length: 6
+      length: 5.5
+      drawFlare: false
+      width: 0.5
+      damage: 1
+      hitColor: d77751
+      shake: 0
+      colors: [d77751, e78f6c, fca988, ffcdba, ffffff]
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
+  {
+    x: 7
+    y: 16.25
+    rotate: false
+    mirror: false
+    alwaysContinuous: true
+    shoot: {
+      firstShotDelay: 120
+    }
+    shootSound: laserbeam
+    shootCone: 360
+    baseRotation: 45
+    layerOffset: -0.1
+    shootCone: 360
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 5.5
       drawFlare: false
       width: 0.5
       damage: 1
