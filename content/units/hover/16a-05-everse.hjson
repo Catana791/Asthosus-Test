@@ -101,9 +101,9 @@ weapons: [
     alwaysContinuous: true
     alwaysShooting: true
     shootSound: none
-    baseRotation: 45
+    baseRotation: -45
     bullet: {
-      type: ContinuousFlameBulletType
+      type: ContinuousLaserBulletType
       length: 4
       drawFlare: false
       width: 0.5
