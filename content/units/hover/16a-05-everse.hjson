@@ -97,15 +97,16 @@ weapons: [
     x: -5
     y: -4
     rotate: false
-    mirror: true
+    mirror: false
     alwaysContinuous: true
     alwaysShooting: true
     shootSound: none
     baseRotation: 45
     bullet: {
-      type: ContinuousLaserBulletType
-      length: 6
-      width: 0.8
+      type: ContinuousFlameBulletType
+      length: 4
+      drawFlare: false
+      width: 0.5
       damage: 1
       shake: 0
     }
