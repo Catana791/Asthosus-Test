@@ -79,9 +79,11 @@ weapons: [
       firstShotDelay: 60
     }
     chargeSound: short-laser-charge
-    shootSound: none
+    shootSound: laserbeam
+    shootCone: 360
     baseRotation: -45
     layerOffset: -0.1
+    shootCone: 360
     bullet: {
       type: ContinuousFlameBulletType
       length: 7
@@ -98,7 +100,7 @@ weapons: [
         type: LightningBulletType
         lightningColor: fca988
         lightningDamage: 3
-        lightningLength: 2
+        lightningLength: 7
         lightningLengthRand: 0.5
       }
     }
@@ -113,7 +115,8 @@ weapons: [
       firstShotDelay: 60
     }
     chargeSound: short-laser-charge
-    shootSound: none
+    shootSound: laserbeam
+    shootCone: 360
     baseRotation: 45
     layerOffset: -0.1
     bullet: {
