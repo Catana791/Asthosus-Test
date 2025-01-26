@@ -383,8 +383,8 @@ weapons: [
       shake: 1
       type: BasicBulletType
       speed: 7
-      damage: 180
-      splashDamage: 420
+      damage: 100
+      splashDamage: 200
       splashDamageRadius: 32
       status: asthosus-13m-04-status-energy-phasing
       statusDuration: 30
