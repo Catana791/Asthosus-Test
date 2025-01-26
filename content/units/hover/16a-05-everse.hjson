@@ -94,14 +94,15 @@ engineSize: 0
 useEngineElevation: false
 weapons: [
   {
-    x: -15
-    y: -18
+    x: -10
+    y: -12
     rotate: false
     mirror: false
     alwaysContinuous: true
     alwaysShooting: true
     shootSound: none
     baseRotation: -45
+    layerOffset: -0.001
     bullet: {
       type: ContinuousFlameBulletType
       length: 8
