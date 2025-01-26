@@ -239,7 +239,7 @@ weapons: [
     shoot: {
       firstShotDelay: 180
     }
-    shootSound: laser
+    shootSound: laserbeam
     shootCone: 360
     layerOffset: -0.1
     shootCone: 360
