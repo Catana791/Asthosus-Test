@@ -303,13 +303,13 @@ weapons: [
     y: -5.5
     mirror: false
     rotate: false
-    reload: 712
+    reload: 356
     shoot: {
-      firstShotDelay: 360
+      firstShotDelay: 120
       shots: 2
       shotDelay: 10
     }
-    chargeSound: green-laser-charge-long
+    chargeSound: green-laser-charge-early-short
     shootSound: shootSmite
     bullet: {
       chargeEffect: {
@@ -320,8 +320,8 @@ weapons: [
             type: ParticleEffect
             particles: 40
             lightOpacity: 0
-            length: 100
-            baseLength: -100
+            length: 50
+            baseLength: -50
             lifetime: 100
             layer: 106
             interp: exp5
@@ -334,8 +334,8 @@ weapons: [
             type: ParticleEffect
             particles: 40
             offset: 60
-            baseLength: 18
-            length: 80
+            baseLength: 9
+            length: 40
             sizeFrom: 0
             sizeTo: 4
             cone: 360
@@ -348,8 +348,8 @@ weapons: [
             particles: 40
             offset: 120
             lightOpacity: 0
-            length: 120
-            baseLength: -120
+            length: 60
+            baseLength: -60
             lifetime: 100
             layer: 106
             interp: pow3In
@@ -365,8 +365,8 @@ weapons: [
             particles: 40
             offset: 180
             lightOpacity: 0
-            length: 120
-            baseLength: -120
+            length: 60
+            baseLength: -60
             lifetime: 100
             layer: 106
             interp: pow3In
@@ -382,8 +382,8 @@ weapons: [
             particles: 40
             offset: 240
             lightOpacity: 0
-            length: 120
-            baseLength: -120
+            length: 60
+            baseLength: -60
             lifetime: 100
             layer: 106
             interp: pow3In
@@ -399,8 +399,8 @@ weapons: [
             particles: 40
             offset: 300
             lightOpacity: 0
-            length: 120
-            baseLength: -120
+            length: 60
+            baseLength: -60
             lifetime: 100
             layer: 106
             interp: pow3In
