@@ -232,7 +232,7 @@ weapons: [
   }
   {
     x: 0
-    y: -2.5
+    y: -4
     rotate: false
     mirror: false
     alwaysContinuous: true
@@ -246,14 +246,15 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       flareColor: d77751
-      length: 24
-      width: 2
+      length: 26
+      width: 1
       damage: 1
       hitColor: d77751
       shake: 1
       colors: [d77751, e78f6c, fca988, ffcdba, ffffff]
       hitEffect: none
       despawnEffect: none
+      flareLength: 2
     }
   }
 ]
