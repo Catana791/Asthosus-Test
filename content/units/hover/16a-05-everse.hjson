@@ -129,7 +129,7 @@ weapons: [
     mirror: false
     alwaysContinuous: true
     shoot: {
-      firstShotDelay: 60
+      firstShotDelay: 90
     }
     shootSound: laserbeam
     shootCone: 360
