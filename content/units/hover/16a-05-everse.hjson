@@ -78,7 +78,6 @@ weapons: [
     shoot: {
       firstShotDelay: 60
     }
-    chargeSound: short-laser-charge
     shootSound: laserbeam
     shootCone: 360
     baseRotation: -45
@@ -93,6 +92,8 @@ weapons: [
       hitColor: d77751
       shake: 0
       colors: [d77751, e78f6c, fca988, ffcdba, ffffff]
+      hitEffect: none
+      despawnEffect: none
     }
   }
   {
@@ -117,6 +118,8 @@ weapons: [
       hitColor: d77751
       shake: 0
       colors: [d77751, e78f6c, fca988, ffcdba, ffffff]
+      hitEffect: none
+      despawnEffect: none
     }
   }
 ]
