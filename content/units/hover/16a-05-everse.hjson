@@ -274,7 +274,7 @@ weapons: [
     ignoreRotation: true
     alwaysShooting: true
     x: 0
-    y: -5.25
+    y: -5.5
     rotate: false
     mirror: false
     alwaysContinuous: true
@@ -283,7 +283,6 @@ weapons: [
     }
     shootSound: laserbeam
     shootCone: 360
-    layerOffset: -0.1
     shootCone: 360
     bullet: {
       type: ContinuousFlameBulletType
@@ -297,6 +296,57 @@ weapons: [
       hitEffect: none
       despawnEffect: none
       flareLength: 6
+    }
+  }
+  {
+    x: 0
+    y: -5.5
+    mirror: false
+    rotate: false
+    reload: 712
+    shoot: {
+      firstShotDelay: 360
+      shots: 2
+      shotDelay: 10
+    }
+    chargeSound: green-laser-charge-long
+    shootSound: shootSmite
+    bullet: {
+      type: BasicBulletType
+      speed: 7
+      damage: 180
+      splashDamage: 420
+      splashDamageRadius: 32
+      status: asthosus-13m-04-status-energy-phasing
+      statusDuration: 30
+      sprite: large-orb
+      width: 17
+      height: 21
+      hitSize: 8
+      pierceCap: 2
+      pierceBuilding: true
+      pierce: true
+      hitColor: d77751
+      backColor: d77751
+      trailColor: d77751
+      frontColor: ffffff
+      trailWidth: 2.8
+      trailLength: 9
+      hitEffect: hitBulletColor
+      buildingDamageMultiplier: 0.9
+      trailRotation: true
+      trailEffect: shootSmokeSquareSparse
+      trailInterval: 3
+      intervalBullets: 3
+      intervalRandomSpread: 360
+      bulletInterval: 3
+      intervalBullet: {
+        type: LightningBulletType
+        damage: 30
+        lightningLength: 6
+        lightningLengthRand: 10
+        lightningColor: d77751
+      }
     }
   }
 ]
