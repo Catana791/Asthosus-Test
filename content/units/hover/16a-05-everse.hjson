@@ -122,4 +122,31 @@ weapons: [
       despawnEffect: none
     }
   }
+  {
+    x: -2.5
+    y: 3.5
+    rotate: false
+    mirror: false
+    alwaysContinuous: true
+    shoot: {
+      firstShotDelay: 60
+    }
+    shootSound: laserbeam
+    shootCone: 360
+    baseRotation: -45
+    layerOffset: -0.1
+    shootCone: 360
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 3
+      drawFlare: false
+      width: 0.5
+      damage: 1
+      hitColor: d77751
+      shake: 0
+      colors: [d77751, e78f6c, fca988, ffcdba, ffffff]
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
 ]
