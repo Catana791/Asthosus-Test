@@ -377,6 +377,40 @@ weapons: [
             colorFrom: ffcdba
             colorTo: d77751
           }
+          {
+            type: ParticleEffect
+            particles: 40
+            offset: 240
+            lightOpacity: 0
+            length: 120
+            baseLength: -120
+            lifetime: 100
+            layer: 106
+            interp: pow3In
+            sizeInterp: pow5Out
+            lifetime: 120
+            sizeFrom: 1
+            sizeTo: 4
+            colorFrom: ffcdba
+            colorTo: d77751
+          }
+          {
+            type: ParticleEffect
+            particles: 40
+            offset: 300
+            lightOpacity: 0
+            length: 120
+            baseLength: -120
+            lifetime: 100
+            layer: 106
+            interp: pow3In
+            sizeInterp: pow5Out
+            lifetime: 100
+            sizeFrom: 1
+            sizeTo: 4
+            colorFrom: ffcdba
+            colorTo: d77751
+          }
         ]
       }
 
