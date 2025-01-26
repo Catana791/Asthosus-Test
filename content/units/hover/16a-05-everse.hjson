@@ -322,7 +322,7 @@ weapons: [
             lightOpacity: 0
             length: 50
             baseLength: -50
-            lifetime: 100
+            lifetime: 115
             layer: 106
             interp: exp5
             sizeFrom: 6
@@ -340,7 +340,7 @@ weapons: [
             sizeTo: 4
             cone: 360
             colorFrom: ffcdba
-            lifetime: 150
+            lifetime: 115
             colorTo: d77751
           }
           {
@@ -350,7 +350,7 @@ weapons: [
             lightOpacity: 0
             length: 60
             baseLength: -60
-            lifetime: 100
+            lifetime: 105
             layer: 106
             interp: pow3In
             sizeInterp: pow5Out
@@ -367,7 +367,7 @@ weapons: [
             lightOpacity: 0
             length: 60
             baseLength: -60
-            lifetime: 100
+            lifetime: 95
             layer: 106
             interp: pow3In
             sizeInterp: pow5Out
