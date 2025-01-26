@@ -94,25 +94,18 @@ engineSize: 0
 useEngineElevation: false
 weapons: [
   {
-    x: 0
+    x: -5
     y: -4
     rotate: false
-    mirror: false
+    mirror: true
     alwaysContinuous: true
     alwaysShooting: true
     shootSound: none
-    shoot: {
-      type: ShootBarrel
-      barrels: 2
-      barrels: [
-        -15, -10, 45,
-        15, -10, -45
-      ]
-    }
+    baseRotation: 45
     bullet: {
       type: ContinuousLaserBulletType
-      length: 16
-      width: 1
+      length: 6
+      width: 0.8
       damage: 1
       shake: 0
     }
