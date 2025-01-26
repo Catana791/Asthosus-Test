@@ -70,8 +70,8 @@ engineSize: 0
 useEngineElevation: false
 weapons: [
   {
-    x: -6
-    y: -9
+    x: -4.5
+    y: -8
     rotate: false
     mirror: false
     alwaysContinuous: true
