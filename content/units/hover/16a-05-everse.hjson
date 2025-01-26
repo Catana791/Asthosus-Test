@@ -94,8 +94,8 @@ engineSize: 0
 useEngineElevation: false
 weapons: [
   {
-    x: -5
-    y: -4
+    x: -15
+    y: -18
     rotate: false
     mirror: false
     alwaysContinuous: true
