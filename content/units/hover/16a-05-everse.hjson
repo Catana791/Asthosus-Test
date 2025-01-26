@@ -232,7 +232,7 @@ weapons: [
   }
   {
     x: 0
-    y: -5
+    y: -5.25
     rotate: false
     mirror: false
     alwaysContinuous: true
@@ -250,7 +250,7 @@ weapons: [
       width: 1
       damage: 1
       hitColor: d77751
-      shake: 0.5
+      shake: 0.3
       colors: [d77751, e78f6c, fca988, ffcdba, ffffff]
       hitEffect: none
       despawnEffect: none
