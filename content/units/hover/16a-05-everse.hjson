@@ -219,7 +219,7 @@ weapons: [
     shootCone: 360
     bullet: {
       type: ContinuousFlameBulletType
-      length: 5.5
+      length: 6
       drawFlare: false
       width: 0.5
       damage: 1
