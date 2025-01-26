@@ -305,7 +305,7 @@ weapons: [
     rotate: false
     reload: 356
     shoot: {
-      firstShotDelay: 120
+      firstShotDelay: 150
       shots: 2
       shotDelay: 10
     }
