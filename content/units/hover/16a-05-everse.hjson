@@ -70,6 +70,12 @@ engineSize: 0
 useEngineElevation: false
 weapons: [
   {
+    useAttackRange: false
+    showStatSprite: false
+    display: false
+    predictTarget: false
+    ignoreRotation: true
+    alwaysShooting: true
     x: -7.5
     y: -9.5
     rotate: false
@@ -97,6 +103,12 @@ weapons: [
     }
   }
   {
+    useAttackRange: false
+    showStatSprite: false
+    display: false
+    predictTarget: false
+    ignoreRotation: true
+    alwaysShooting: true
     x: 7.5
     y: -9.5
     rotate: false
@@ -123,6 +135,12 @@ weapons: [
     }
   }
   {
+    useAttackRange: false
+    showStatSprite: false
+    display: false
+    predictTarget: false
+    ignoreRotation: true
+    alwaysShooting: true
     x: -5.5
     y: 8
     rotate: false
@@ -150,6 +168,12 @@ weapons: [
     }
   }
   {
+    useAttackRange: false
+    showStatSprite: false
+    display: false
+    predictTarget: false
+    ignoreRotation: true
+    alwaysShooting: true
     x: 5.5
     y: 8
     rotate: false
@@ -177,6 +201,12 @@ weapons: [
     }
   }
   {
+    useAttackRange: false
+    showStatSprite: false
+    display: false
+    predictTarget: false
+    ignoreRotation: true
+    alwaysShooting: true
     x: -7
     y: 16.25
     rotate: false
@@ -204,6 +234,12 @@ weapons: [
     }
   }
   {
+    useAttackRange: false
+    showStatSprite: false
+    display: false
+    predictTarget: false
+    ignoreRotation: true
+    alwaysShooting: true
     x: 7
     y: 16.25
     rotate: false
@@ -231,6 +267,12 @@ weapons: [
     }
   }
   {
+    useAttackRange: false
+    showStatSprite: false
+    display: false
+    predictTarget: false
+    ignoreRotation: true
+    alwaysShooting: true
     x: 0
     y: -5.25
     rotate: false
