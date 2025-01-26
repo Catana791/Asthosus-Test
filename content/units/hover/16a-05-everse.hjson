@@ -103,9 +103,10 @@ weapons: [
     shootSound: none
     shoot: {
       type: ShootBarrel
+      barrels: 2
       barrels: [
-        -5, -10, 45,
-        5, -10, -45
+        -15, -10, 45,
+        15, -10, -45
       ]
     }
     bullet: {
@@ -113,6 +114,7 @@ weapons: [
       length: 16
       width: 1
       damage: 1
+      shake: 0
     }
   }
   {
