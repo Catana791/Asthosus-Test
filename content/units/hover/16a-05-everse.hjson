@@ -95,9 +95,9 @@ weapons: [
       drawFlare: false
       width: 0.5
       damage: 1
-      hitColor: d77751
+      hitColor: 473b64
       shake: 0
-      colors: [d77751, e78f6c, fca988, ffcdba, ffffff]
+      colors: [31254d, 473b64, 6e5b9a, 8f7eb8, ffffff]
       hitEffect: none
       despawnEffect: none
     }
@@ -127,9 +127,9 @@ weapons: [
       drawFlare: false
       width: 0.5
       damage: 1
-      hitColor: d77751
+      hitColor: 473b64
       shake: 0
-      colors: [d77751, e78f6c, fca988, ffcdba, ffffff]
+      colors: [31254d, 473b64, 6e5b9a, 8f7eb8, ffffff]
       hitEffect: none
       despawnEffect: none
     }
@@ -160,9 +160,9 @@ weapons: [
       drawFlare: false
       width: 0.5
       damage: 1
-      hitColor: d77751
+      hitColor: 473b64
       shake: 0
-      colors: [d77751, e78f6c, fca988, ffcdba, ffffff]
+      colors: [31254d, 473b64, 6e5b9a, 8f7eb8, ffffff]
       hitEffect: none
       despawnEffect: none
     }
@@ -193,9 +193,9 @@ weapons: [
       drawFlare: false
       width: 0.5
       damage: 1
-      hitColor: d77751
+      hitColor: 473b64
       shake: 0
-      colors: [d77751, e78f6c, fca988, ffcdba, ffffff]
+      colors: [31254d, 473b64, 6e5b9a, 8f7eb8, ffffff]
       hitEffect: none
       despawnEffect: none
     }
@@ -226,9 +226,9 @@ weapons: [
       drawFlare: false
       width: 0.5
       damage: 1
-      hitColor: d77751
+      hitColor: 473b64
       shake: 0
-      colors: [d77751, e78f6c, fca988, ffcdba, ffffff]
+      colors: [31254d, 473b64, 6e5b9a, 8f7eb8, ffffff]
       hitEffect: none
       despawnEffect: none
     }
@@ -259,9 +259,9 @@ weapons: [
       drawFlare: false
       width: 0.5
       damage: 1
-      hitColor: d77751
+      hitColor: 473b64
       shake: 0
-      colors: [d77751, e78f6c, fca988, ffcdba, ffffff]
+      colors: [31254d, 473b64, 6e5b9a, 8f7eb8, ffffff]
       hitEffect: none
       despawnEffect: none
     }
@@ -290,9 +290,9 @@ weapons: [
       length: 26
       width: 1
       damage: 1
-      hitColor: d77751
+      hitColor: 473b64
       shake: 0.3
-      colors: [d77751, e78f6c, fca988, ffcdba, ffffff]
+      colors: [31254d, 473b64, 6e5b9a, 8f7eb8, ffffff]
       hitEffect: none
       despawnEffect: none
       flareLength: 6
@@ -327,8 +327,8 @@ weapons: [
             interp: exp5
             sizeFrom: 6
             sizeTo: 2
-            colorFrom: ffcdba
-            colorTo: d77751
+            colorFrom: 8f7eb8
+            colorTo: 473b64
           }
           {
             type: ParticleEffect
@@ -339,9 +339,9 @@ weapons: [
             sizeFrom: 0
             sizeTo: 4
             cone: 360
-            colorFrom: ffcdba
+            colorFrom: 8f7eb8
             lifetime: 115
-            colorTo: d77751
+            colorTo: 473b64
           }
           {
             type: ParticleEffect
@@ -357,8 +357,8 @@ weapons: [
             lifetime: 110
             sizeFrom: 1
             sizeTo: 4
-            colorFrom: ffcdba
-            colorTo: d77751
+            colorFrom: 8f7eb8
+            colorTo: 473b64
           }
           {
             type: ParticleEffect
@@ -374,8 +374,8 @@ weapons: [
             lifetime: 140
             sizeFrom: 1
             sizeTo: 4
-            colorFrom: ffcdba
-            colorTo: d77751
+            colorFrom: 8f7eb8
+            colorTo: 473b64
           }
         ]
       }
@@ -395,9 +395,9 @@ weapons: [
       pierceCap: 2
       pierceBuilding: true
       pierce: true
-      hitColor: d77751
-      backColor: d77751
-      trailColor: d77751
+      hitColor: 473b64
+      backColor: 473b64
+      trailColor: 473b64
       frontColor: ffffff
       trailWidth: 2.8
       trailLength: 9
@@ -415,7 +415,7 @@ weapons: [
         despawnSound: spark
         lightningLength: 3
         lightningLengthRand: 5
-        lightningColor: d77751
+        lightningColor: 473b64
       }
     }
   }
