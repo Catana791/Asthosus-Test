@@ -316,16 +316,14 @@ weapons: [
       flareLength: 6
       fragRandomSpread: 0
       fragBullets: 1
-      fragBullet: [
-        {
-          type: LightningBulletType
-          damage: 1
-          despawnSound: none
-          lightningLength: 2
-          lightningLengthRand: 2
-          lightningColor: 473b64
-        }
-      ]
+      fragBullet: {
+        type: LightningBulletType
+        damage: 1
+        despawnSound: none
+        lightningLength: 2
+        lightningLengthRand: 2
+        lightningColor: 473b64
+      }
     }
   }
   {
