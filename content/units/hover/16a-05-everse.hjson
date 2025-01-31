@@ -310,7 +310,7 @@ weapons: [
     shootCone: 360
     bullet: {
       type: ContinuousFlameBulletType
-      flareColor: d77751
+      flareColor: 6e5b9a
       length: 26
       width: 1
       damage: 1
