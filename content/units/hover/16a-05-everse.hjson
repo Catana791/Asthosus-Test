@@ -111,13 +111,14 @@ weapons: [
     }
     shootCone: 360
     baseRotation: -45
-    layerOffset: -0.1
+    layerOffset: -1
     shootCone: 360
     bullet: {
+      shootEffect: none
       type: LightningBulletType
       damage: 1
-      lightningLength: 3
-      lightningLengthRand: 1
+      lightningLength: 5
+      lightningLengthRand: 3
       lightningColor: 8f7eb8
     }
   }
@@ -139,12 +140,13 @@ weapons: [
     }
     shootCone: 360
     baseRotation: 45
-    layerOffset: -0.1
+    layerOffset: -1
     bullet: {
+      shootEffect: none
       type: LightningBulletType
       damage: 1
-      lightningLength: 3
-      lightningLengthRand: 1
+      lightningLength: 5
+      lightningLengthRand: 3
       lightningColor: 8f7eb8
     }
   }
@@ -170,6 +172,7 @@ weapons: [
     layerOffset: -0.1
     shootCone: 360
     bullet: {
+      shootEffect: none
       type: ContinuousFlameBulletType
       length: 7
       drawFlare: false
@@ -202,6 +205,7 @@ weapons: [
     baseRotation: 45
     layerOffset: -0.1
     bullet: {
+      shootEffect: none
       type: ContinuousFlameBulletType
       length: 7
       drawFlare: false
@@ -235,6 +239,7 @@ weapons: [
     layerOffset: -0.1
     shootCone: 360
     bullet: {
+      shootEffect: none
       type: ContinuousFlameBulletType
       length: 4.25
       drawFlare: false
@@ -268,6 +273,7 @@ weapons: [
     layerOffset: -0.1
     shootCone: 360
     bullet: {
+      shootEffect: none
       type: ContinuousFlameBulletType
       length: 4.25
       drawFlare: false
@@ -302,6 +308,7 @@ weapons: [
     shootCone: 360
     shootSound: none
     bullet: {
+      shootEffect: none
       type: ContinuousFlameBulletType
       length: 6
       drawFlare: false
@@ -335,6 +342,7 @@ weapons: [
     layerOffset: -0.1
     shootCone: 360
     bullet: {
+      shootEffect: none
       type: ContinuousFlameBulletType
       length: 6
       drawFlare: false
@@ -366,6 +374,7 @@ weapons: [
     shootCone: 360
     shootCone: 360
     bullet: {
+      shootEffect: none
       type: ContinuousFlameBulletType
       flareColor: 6e5b9a
       length: 26
