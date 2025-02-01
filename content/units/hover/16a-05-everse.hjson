@@ -135,7 +135,7 @@ weapons: [
     rotate: false
     mirror: false
     reload: 7
-    shootSound: none
+    shootSound: spark
     shoot: {
       firstShotDelay: 60
     }
@@ -166,8 +166,9 @@ weapons: [
     reload: 5
     shoot: {
       firstShotDelay: 210
+      shots: 3
     }
-    shootSound: spark
+    shootSound: none
     shootCone: 360
     shootCone: 360
     bullet: {
@@ -175,8 +176,8 @@ weapons: [
       shootEffect: none
       type: LightningBulletType
       damage: 1
-      lightningLength: 9
-      lightningLengthRand: 4
+      lightningLength: 6
+      lightningLengthRand: 3
       lightningColor: 8f7eb8
     }
   }
