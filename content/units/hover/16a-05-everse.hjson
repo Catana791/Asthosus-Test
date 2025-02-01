@@ -104,7 +104,7 @@ weapons: [
     y: -9.5
     rotate: false
     mirror: false
-    alwaysContinuous: true
+    reload: 6
     shootSound: none
     shoot: {
       firstShotDelay: 60
@@ -132,7 +132,7 @@ weapons: [
     y: -9.5
     rotate: false
     mirror: false
-    alwaysContinuous: true
+    reload: 7
     shootSound: none
     shoot: {
       firstShotDelay: 60
