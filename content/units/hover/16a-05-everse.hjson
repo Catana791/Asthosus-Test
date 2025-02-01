@@ -319,7 +319,7 @@ weapons: [
       shootEffect: none
       type: ContinuousFlameBulletType
       flareColor: 6e5b9a
-      length: 26
+      length: 28
       width: 1.25
       damage: 1
       hitColor: 473b64
