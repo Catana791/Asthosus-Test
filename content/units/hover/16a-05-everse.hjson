@@ -88,7 +88,7 @@ abilities: [
       lifetime: 65
       colorFrom: 6e5b9a
       colorTo: 473b64
-      interp: bounceOut
+      interp: circleOut
       offset: -90
       layer: 1
     }
@@ -113,7 +113,7 @@ abilities: [
         lifetime: 65
         colorFrom: 473b64
         colorTo: 6e5b9a
-        interp: bounceIn
+        interp: circleIn
         offset: -90
         layer: 1
       }
