@@ -74,6 +74,8 @@ abilities: [
     y: 0
     teamColor: false
     interval: 120
+    rotateEffect: true
+    parentizeEffects: true
     effect: {
       type: MultiEffect
       lifetime: 120
@@ -90,20 +92,6 @@ abilities: [
           colorFrom: 6e5b9a
           colorTo: 473b64
           interp: elasticOut
-        }
-        {
-          type: ParticleEffect
-          particles: 1
-          length: 0
-          cone: 0
-          useRotation: true
-          region: asthosus-everse-radiance
-          sizeFrom: 20
-          offset: 60
-          lifetime: 60
-          colorFrom: 473b64
-          colorTo: 6e5b9a
-          interp: elasticIn
         }
       ]
     }
