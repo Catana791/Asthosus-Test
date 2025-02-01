@@ -73,7 +73,7 @@ abilities: [
     x: 0
     y: 0
     teamColor: false
-    interval: 120
+    interval: 130
     rotateEffect: true
     parentizeEffects: true
     minVelocity: 0
@@ -87,7 +87,7 @@ abilities: [
       useRotation: true
       region: asthosus-everse-radiance
       sizeTo: 38
-      lifetime: 65
+      lifetime: 60
       colorFrom: 6e5b9a
       colorTo: 473b64
       interp: circleOut
@@ -102,7 +102,7 @@ abilities: [
     x: 0
     y: 0
     teamColor: false
-    interval: 180
+    interval: 190
     rotateEffect: true
     parentizeEffects: true
     minVelocity: 0
