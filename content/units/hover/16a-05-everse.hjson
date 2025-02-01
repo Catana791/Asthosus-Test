@@ -97,7 +97,7 @@ abilities: [
     x: 0
     y: 0
     teamColor: false
-    interval: 60
+    interval: 120
     rotateEffect: true
     parentizeEffects: true
     effect: {
@@ -109,9 +109,6 @@ abilities: [
         region: asthosus-everse-radiance
         sizeFrom: 40
         lifetime: 60
-        startDelay: 60
-        followParent: true
-        rotWithParent: true
         colorFrom: 6e5b9a
         colorTo: 473b64
         interp: sineIn
