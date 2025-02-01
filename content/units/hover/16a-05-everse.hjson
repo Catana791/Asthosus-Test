@@ -75,7 +75,6 @@ abilities: [
     teamColor: false
     interval: 60
     rotateEffect: true
-    parentizeEffects: true
     effect: {
       type: ParticleEffect
       particles: 1
@@ -83,8 +82,8 @@ abilities: [
       cone: 0
       useRotation: true
       region: asthosus-everse-radiance
-      sizeTo: 40
-      lifetime: 60
+      sizeTo: 35
+      lifetime: 65
       colorFrom: 6e5b9a
       colorTo: 473b64
       interp: sineOut
@@ -107,8 +106,8 @@ abilities: [
         cone: 0
         useRotation: true
         region: asthosus-everse-radiance
-        sizeFrom: 40
-        lifetime: 60
+        sizeFrom: 35
+        lifetime: 65
         colorFrom: 6e5b9a
         colorTo: 473b64
         interp: sineIn
