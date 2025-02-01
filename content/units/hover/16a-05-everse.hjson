@@ -73,7 +73,7 @@ abilities: [
     x: 0
     y: 0
     teamColor: false
-    interval: 60
+    interval: 90
     rotateEffect: true
     parentizeEffects: true
     effect: {
