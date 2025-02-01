@@ -82,6 +82,8 @@ abilities: [
       effects: [
         {
           type: ParticleEffect
+          particles: 1
+          length: 0
           region: asthosus-everse-radiance
           sizeTo: 20
           lifetime: 60
@@ -91,6 +93,8 @@ abilities: [
         }
         {
           type: ParticleEffect
+          particles: 1
+          length: 0
           region: asthosus-everse-radiance
           sizeFrom: 20
           offset: 60
