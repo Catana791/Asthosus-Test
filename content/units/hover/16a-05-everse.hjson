@@ -77,8 +77,7 @@ abilities: [
     rotateEffect: true
     parentizeEffects: true
     minVelocity: 0
-    effect: [
-      {
+    effect: {
         baseLength: 0
         randLength: false
         type: ParticleEffect
@@ -87,36 +86,16 @@ abilities: [
         cone: 0
         useRotation: true
         region: asthosus-everse-radiance
-        sizeTo: 38
+        sizeTo: 37
         lifetime: 60
         colorFrom: 6e5b9a
         colorTo: 473b64
-        interp: circleOut
+        interp: exp10Out
         offset: -90
         layer: 1
         followParent: true
         rotWithParent: true
-      }
-      {
-        baseLength: 0
-        randLength: false
-        type: ParticleEffect
-        particles: 1
-        length: 0
-        cone: 0
-        useRotation: true
-        region: asthosus-everse-radiance
-        sizeTo: 38
-        lifetime: 90
-        colorFrom: 6e5b9a
-        colorTo: 473b64
-        interp: circleOut
-        offset: -90
-        layer: 1
-        followParent: true
-        rotWithParent: true
-      }
-    ]
+    }
   }
 ]
 engines: [
