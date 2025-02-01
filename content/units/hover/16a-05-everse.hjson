@@ -48,7 +48,16 @@ abilities: [
     x: 0
     y: -43
     teamColor: true
-    effect: instTrail
+    effect: missileTrail
+    interval: 6
+    rotateEffect: true
+  }
+  {
+    type: MoveEffectAbility
+    x: 0
+    y: -46
+    teamColor: true
+    effect: missileTrail
     interval: 6
     rotateEffect: true
   }
@@ -67,6 +76,39 @@ abilities: [
     teamColor: true
     effect: missileTrail
     interval: 7
+  }
+
+  {
+    type: MoveEffectAbility
+    x: 0
+    y: 0
+    teamColor: false
+    interval: 120
+    effect: {
+      type: MultiEffect
+      lifetime: 120
+      effects: [
+        {
+          type: ParticleEffect
+          region: asthosus-everse-radiance
+          sizeTo: 20
+          lifetime: 60
+          colorFrom: 6e5b9a
+          colorTo: 473b64
+          interp: elasticOut
+        }
+        {
+          type: ParticleEffect
+          region: asthosus-everse-radiance
+          sizeFrom: 20
+          offset: 60
+          lifetime: 60
+          colorFrom: 473b64
+          colorTo: 6e5b9a
+          interp: elasticIn
+        }
+      ]
+    }
   }
 ]
 engines: [
