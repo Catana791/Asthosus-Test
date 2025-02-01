@@ -114,12 +114,12 @@ weapons: [
     layerOffset: -1
     shootCone: 360
     bullet: {
-      layer: 89
+      layer: 72
       shootEffect: none
       type: LightningBulletType
       damage: 1
       lightningLength: 5
-      lightningLengthRand: 3
+      lightningLengthRand: 2
       lightningColor: 8f7eb8
     }
   }
@@ -143,12 +143,12 @@ weapons: [
     baseRotation: 45
     layerOffset: -1
     bullet: {
-      layer: 89
+      layer: 72
       shootEffect: none
       type: LightningBulletType
       damage: 1
       lightningLength: 5
-      lightningLengthRand: 3
+      lightningLengthRand: 2
       lightningColor: 8f7eb8
     }
   }
