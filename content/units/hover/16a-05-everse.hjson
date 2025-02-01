@@ -75,6 +75,7 @@ abilities: [
     teamColor: false
     interval: 60
     rotateEffect: true
+    parentizeEffects: true
     effect: {
       type: ParticleEffect
       particles: 1
@@ -108,8 +109,8 @@ abilities: [
         region: asthosus-everse-radiance
         sizeFrom: 35
         lifetime: 65
-        colorFrom: 6e5b9a
-        colorTo: 473b64
+        colorFrom: 473b64
+        colorTo: 6e5b9a
         interp: sineIn
         offset: -90
         layer: 1
