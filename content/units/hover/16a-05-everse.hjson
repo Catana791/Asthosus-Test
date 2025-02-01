@@ -50,7 +50,6 @@ abilities: [
     teamColor: true
     effect: missileTrail
     interval: 6
-    rotateEffect: true
   }
   {
     type: MoveEffectAbility
@@ -75,7 +74,6 @@ abilities: [
     y: 0
     teamColor: false
     interval: 120
-    rotateEffect: true
     effect: {
       type: MultiEffect
       lifetime: 120
@@ -84,6 +82,8 @@ abilities: [
           type: ParticleEffect
           particles: 1
           length: 0
+          cone: 0
+          useRotation: true
           region: asthosus-everse-radiance
           sizeTo: 20
           lifetime: 60
@@ -95,6 +95,8 @@ abilities: [
           type: ParticleEffect
           particles: 1
           length: 0
+          cone: 0
+          useRotation: true
           region: asthosus-everse-radiance
           sizeFrom: 20
           offset: 60
