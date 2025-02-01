@@ -93,7 +93,7 @@ abilities: [
           colorTo: 473b64
           interp: sineOut
           offset: -90
-          layer: 89
+          layer: 71
         }
         {
           type: ParticleEffect
@@ -103,13 +103,12 @@ abilities: [
           useRotation: true
           region: asthosus-everse-radiance
           sizeFrom: 40
-          lifetime: 60
+          lifetime: 120
           colorFrom: 6e5b9a
           colorTo: 473b64
           interp: sineIn
           offset: -90
-          startDelay: 60
-          layer: 89
+          layer: 71
         }
       ]
     }
