@@ -105,6 +105,63 @@ weapons: [
     rotate: false
     mirror: false
     alwaysContinuous: true
+    shootSound: none
+    shoot: {
+      firstShotDelay: 60
+    }
+    shootCone: 360
+    baseRotation: -45
+    layerOffset: -0.1
+    shootCone: 360
+    bullet: {
+      type: LightningBulletType
+      damage: 1
+      lightningLength: 3
+      lightningLengthRand: 1
+      lightningColor: 8f7eb8
+    }
+  }
+  {
+    useAttackRange: false
+    showStatSprite: false
+    display: false
+    predictTarget: false
+    ignoreRotation: true
+    alwaysShooting: true
+    x: 7.5
+    y: -9.5
+    rotate: false
+    mirror: false
+    alwaysContinuous: true
+    shootSound: none
+    shoot: {
+      firstShotDelay: 60
+    }
+    shootCone: 360
+    baseRotation: 45
+    layerOffset: -0.1
+    bullet: {
+      type: LightningBulletType
+      damage: 1
+      lightningLength: 3
+      lightningLengthRand: 1
+      lightningColor: 8f7eb8
+    }
+  }
+
+  {
+    useAttackRange: false
+    showStatSprite: false
+    display: false
+    predictTarget: false
+    ignoreRotation: true
+    alwaysShooting: true
+    x: -7.5
+    y: -9.5
+    rotate: false
+    mirror: false
+    alwaysContinuous: true
+    shootSound: none
     shoot: {
       firstShotDelay: 60
     }
@@ -137,6 +194,7 @@ weapons: [
     rotate: false
     mirror: false
     alwaysContinuous: true
+    shootSound: none
     shoot: {
       firstShotDelay: 60
     }
@@ -163,6 +221,7 @@ weapons: [
     predictTarget: false
     ignoreRotation: true
     alwaysShooting: true
+    shootSound: none
     x: -5.5
     y: 8
     rotate: false
@@ -200,6 +259,7 @@ weapons: [
     rotate: false
     mirror: false
     alwaysContinuous: true
+    shootSound: none
     shoot: {
       firstShotDelay: 90
     }
@@ -232,6 +292,7 @@ weapons: [
     rotate: false
     mirror: false
     alwaysContinuous: true
+    shootSound: none
     shoot: {
       firstShotDelay: 120
     }
@@ -239,6 +300,7 @@ weapons: [
     baseRotation: -45
     layerOffset: -0.1
     shootCone: 360
+    shootSound: none
     bullet: {
       type: ContinuousFlameBulletType
       length: 6
@@ -264,6 +326,7 @@ weapons: [
     rotate: false
     mirror: false
     alwaysContinuous: true
+    shootSound: none
     shoot: {
       firstShotDelay: 120
     }
