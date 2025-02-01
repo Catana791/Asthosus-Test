@@ -54,15 +54,6 @@ abilities: [
   }
   {
     type: MoveEffectAbility
-    x: 0
-    y: -46
-    teamColor: true
-    effect: missileTrail
-    interval: 6
-    rotateEffect: true
-  }
-  {
-    type: MoveEffectAbility
     x: 21
     y: -34
     teamColor: true
@@ -84,6 +75,7 @@ abilities: [
     y: 0
     teamColor: false
     interval: 120
+    rotateEffect: true
     effect: {
       type: MultiEffect
       lifetime: 120
