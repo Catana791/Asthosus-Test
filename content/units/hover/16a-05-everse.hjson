@@ -83,11 +83,11 @@ abilities: [
       cone: 0
       useRotation: true
       region: asthosus-everse-radiance
-      sizeTo: 35
+      sizeTo: 38
       lifetime: 65
       colorFrom: 6e5b9a
       colorTo: 473b64
-      interp: sineOut
+      interp: smooth
       offset: -90
       layer: 1
     }
@@ -107,11 +107,11 @@ abilities: [
         cone: 0
         useRotation: true
         region: asthosus-everse-radiance
-        sizeFrom: 35
+        sizeFrom: 38
         lifetime: 65
         colorFrom: 473b64
         colorTo: 6e5b9a
-        interp: sineIn
+        interp: smooth
         offset: -90
         layer: 1
       }
