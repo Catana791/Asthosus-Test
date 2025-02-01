@@ -73,7 +73,7 @@ abilities: [
     x: 0
     y: 0
     teamColor: false
-    interval: 90
+    interval: 130
     rotateEffect: true
     parentizeEffects: true
     minVelocity: 0
@@ -98,7 +98,7 @@ abilities: [
     x: 0
     y: 0
     teamColor: false
-    interval: 120
+    interval: 195
     rotateEffect: true
     parentizeEffects: true
     minVelocity: 0
