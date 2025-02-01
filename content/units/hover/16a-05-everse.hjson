@@ -76,6 +76,7 @@ abilities: [
     interval: 90
     rotateEffect: true
     parentizeEffects: true
+    minVelocity: 0
     effect: {
       type: ParticleEffect
       particles: 1
@@ -100,6 +101,7 @@ abilities: [
     interval: 120
     rotateEffect: true
     parentizeEffects: true
+    minVelocity: 0
     effect: {
         type: ParticleEffect
         particles: 1
