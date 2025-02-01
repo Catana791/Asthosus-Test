@@ -73,11 +73,13 @@ abilities: [
     x: 0
     y: 0
     teamColor: false
-    interval: 130
+    interval: 60
     rotateEffect: true
     parentizeEffects: true
     minVelocity: 0
     effect: {
+      baseLength: 0
+      randLength: false
       type: ParticleEffect
       particles: 1
       length: 0
@@ -85,7 +87,7 @@ abilities: [
       useRotation: true
       region: asthosus-everse-radiance
       sizeTo: 38
-      lifetime: 65
+      lifetime: 60
       colorFrom: 6e5b9a
       colorTo: 473b64
       interp: circleOut
@@ -98,26 +100,28 @@ abilities: [
     x: 0
     y: 0
     teamColor: false
-    interval: 195
+    interval: 120
     rotateEffect: true
     parentizeEffects: true
     minVelocity: 0
     effect: {
-        type: ParticleEffect
-        particles: 1
-        length: 0
-        cone: 0
-        useRotation: true
-        region: asthosus-everse-radiance
-        sizeFrom: 38
-        lifetime: 65
-        colorFrom: 473b64
-        colorTo: 6e5b9a
-        interp: circleIn
-        offset: -90
-        layer: 1
-      }
+      baseLength: 0
+      randLength: false
+      type: ParticleEffect
+      particles: 1
+      length: 0
+      cone: 0
+      useRotation: true
+      region: asthosus-everse-radiance
+      sizeFrom: 38
+      lifetime: 60
+      colorFrom: 473b64
+      colorTo: 6e5b9a
+      interp: circleIn
+      offset: -90
+      layer: 1
     }
+  }
 ]
 engines: [
   {
