@@ -87,12 +87,27 @@ abilities: [
           cone: 0
           useRotation: true
           region: asthosus-everse-radiance
-          sizeTo: 20
+          sizeTo: 40
           lifetime: 60
           colorFrom: 6e5b9a
           colorTo: 473b64
-          interp: elasticOut
-          offset: 90
+          interp: sineOut
+          offset: -90
+        }
+        {
+          type: ParticleEffect
+          particles: 1
+          length: 0
+          cone: 0
+          useRotation: true
+          region: asthosus-everse-radiance
+          sizeFrom: 40
+          lifetime: 60
+          colorFrom: 6e5b9a
+          colorTo: 473b64
+          interp: sineIn
+          offset: -90
+          startDelay: 60
         }
       ]
     }
