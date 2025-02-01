@@ -93,6 +93,7 @@ abilities: [
           colorTo: 473b64
           interp: sineOut
           offset: -90
+          layer: 89
         }
         {
           type: ParticleEffect
@@ -108,6 +109,7 @@ abilities: [
           interp: sineIn
           offset: -90
           startDelay: 60
+          layer: 89
         }
       ]
     }
