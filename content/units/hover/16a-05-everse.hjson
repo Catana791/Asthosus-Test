@@ -152,6 +152,34 @@ weapons: [
       lightningColor: 8f7eb8
     }
   }
+  {
+    useAttackRange: false
+    showStatSprite: false
+    display: false
+    predictTarget: false
+    ignoreRotation: true
+    alwaysShooting: true
+    x: 0
+    y: -5.5
+    rotate: false
+    mirror: false
+    reload: 5
+    shoot: {
+      firstShotDelay: 210
+    }
+    shootSound: spark
+    shootCone: 360
+    shootCone: 360
+    bullet: {
+      layer: 72
+      shootEffect: none
+      type: LightningBulletType
+      damage: 1
+      lightningLength: 9
+      lightningLengthRand: 4
+      lightningColor: 8f7eb8
+    }
+  }
 
   {
     useAttackRange: false
