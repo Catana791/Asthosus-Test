@@ -90,7 +90,7 @@ abilities: [
         lifetime: 60
         colorFrom: 6e5b9a
         colorTo: 473b64
-        interp: fastSlow
+        interp: elasticOut
         offset: -90
         layer: 1
         followParent: true
