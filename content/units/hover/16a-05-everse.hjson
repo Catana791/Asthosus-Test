@@ -92,7 +92,7 @@ abilities: [
           colorFrom: 6e5b9a
           colorTo: 473b64
           interp: elasticOut
-          rotation: 90
+          offset: 90
         }
       ]
     }
