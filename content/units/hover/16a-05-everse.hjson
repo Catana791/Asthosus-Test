@@ -111,7 +111,7 @@ weapons: [
     }
     shootCone: 360
     baseRotation: -45
-    layerOffset: -1
+    layerOffset: -10
     shootCone: 360
     bullet: {
       layer: 10
@@ -141,7 +141,7 @@ weapons: [
     }
     shootCone: 360
     baseRotation: 45
-    layerOffset: -1
+    layerOffset: -10
     bullet: {
       layer: 10
       shootEffect: none
@@ -169,7 +169,7 @@ weapons: [
       shots: 3
     }
     shootSound: none
-    shootCone: 360
+    layerOffset: -10
     shootCone: 360
     bullet: {
       layer: 10
