@@ -114,7 +114,7 @@ weapons: [
     layerOffset: -1
     shootCone: 360
     bullet: {
-      layer: 72
+      layer: 10
       shootEffect: none
       type: LightningBulletType
       damage: 1
@@ -143,7 +143,7 @@ weapons: [
     baseRotation: 45
     layerOffset: -1
     bullet: {
-      layer: 72
+      layer: 10
       shootEffect: none
       type: LightningBulletType
       damage: 1
@@ -172,7 +172,7 @@ weapons: [
     shootCone: 360
     shootCone: 360
     bullet: {
-      layer: 72
+      layer: 10
       shootEffect: none
       type: LightningBulletType
       damage: 1
