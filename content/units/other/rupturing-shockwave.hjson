@@ -16,6 +16,7 @@ weapons: [
         shootCone: 360
         shootSound: huge-explosion
         bullet: {
+            killShooter: true
             type: BasicBulletType
             width: 0.000001
             height: 0.000001
