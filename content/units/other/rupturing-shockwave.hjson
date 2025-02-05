@@ -75,7 +75,7 @@ weapons: [
                         sizeTo: 6000
                         strokeFrom: 6
                         strokeTo: 64
-                        interp: circleOut
+                        interp: exp5Out
                         startDelay: 250
                         lifetime: 6000
                         colorFrom: c2ba9c
