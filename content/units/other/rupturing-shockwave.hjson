@@ -1,9 +1,11 @@
 type: flying
 name: Rupturing Shockwave
-internal: true
+hidden: true
 hittable: false
 drawBody: false  
 drawCell: false
+health: 1000000
+speed: 0
 physics: false
 weapons: [
     {
