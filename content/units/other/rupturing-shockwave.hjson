@@ -75,7 +75,7 @@ weapons: [
                         strokeTo: 24
                         interp: circleOut
                         startDelay: 250
-                        lifetime: 900
+                        lifetime: 4000
                         colorFrom: c2ba9c
                         colorTo: a69d7d
                     }
