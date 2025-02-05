@@ -1,6 +1,5 @@
 type: flying
 name: Rupturing Shockwave
-hidden: true
 internal: true
 hittable: false
 drawBody: false  
