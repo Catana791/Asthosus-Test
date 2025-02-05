@@ -31,13 +31,13 @@ weapons: [
                         type: ExplosionEffect
                         smokeColor: 959595
                         smokeRad: 90
-                        smokes: 72
-                        smokeSize: 16
-                        smokeSizeBase: 32
+                        smokes: 36
+                        smokeSize: 2
+                        smokeSizeBase: 3
                         sparkColor: edc66c
-                        sparkLen: 12
+                        sparkLen: 4
                         sparkRad: 70
-                        sparks: 60
+                        sparks: 34
                         sparkStroke: 2
                         waveColor: c2ba9c
                         waveLife: 240
@@ -73,10 +73,10 @@ weapons: [
                         sizeFrom: 0
                         sizeTo: 6000
                         strokeFrom: 3
-                        strokeTo: 24
+                        strokeTo: 40
                         interp: circleOut
                         startDelay: 250
-                        lifetime: 4000
+                        lifetime: 5000
                         colorFrom: c2ba9c
                         colorTo: a69d7d
                     }
