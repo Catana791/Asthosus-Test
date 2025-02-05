@@ -42,6 +42,7 @@ weapons: [
                         waveColor: c2ba9c
                         waveLife: 240
                         waveRad: 110
+                        lifetime: 360
                     }
                     {
                         type: WaveEffect
