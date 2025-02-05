@@ -25,8 +25,24 @@ weapons: [
             collides: false
             despawnEffect: {
             type: MultiEffect
-                lifetime: 1320
+                lifetime: 1920
                 effects: [
+                    {
+                        type: ExplosionEffect
+                        smokeColor: 959595
+                        smokeRad: 90
+                        smokes: 72
+                        smokeSize: 16
+                        smokeSizeBase: 32
+                        sparkColor: edc66c
+                        sparkLen: 12
+                        sparkRad: 70
+                        sparks: 60
+                        sparkStroke: 2
+                        waveColor: c2ba9c
+                        waveLife: 240
+                        waveRad: 110
+                    }
                     {
                         type: WaveEffect
                         sizeFrom: 0
@@ -35,6 +51,9 @@ weapons: [
                         strokeTo: 6
                         interp: circleOut
                         lifetime: 120
+                        colorFrom: c2ba9c
+                        colorTo: a69d7d
+                        startTime: 60
                     }
                     {
                         type: WaveEffect
@@ -43,18 +62,22 @@ weapons: [
                         strokeFrom: 6
                         strokeTo: 1
                         interp: circleOut
-                        startDelay: 125
+                        startDelay: 118
                         lifetime: 120
+                        colorFrom: c2ba9c
+                        colorTo: a69d7d
                     }
                     {
                         type: WaveEffect
                         sizeFrom: 0
-                        sizeTo: 600
+                        sizeTo: 6000
                         strokeFrom: 3
-                        strokeTo: 12
+                        strokeTo: 24
                         interp: circleOut
                         startDelay: 250
                         lifetime: 900
+                        colorFrom: c2ba9c
+                        colorTo: a69d7d
                     }
                 ]
             }
