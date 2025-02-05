@@ -15,7 +15,7 @@ weapons: [
         ignoreRotation: true
         shootCone: 360
         shootSound: huge-explosion
-        shake: 400
+        shake: 1200
         bullet: {
             killShooter: true
             type: BasicBulletType
@@ -55,7 +55,7 @@ weapons: [
                         lifetime: 120
                         colorFrom: c2ba9c
                         colorTo: a69d7d
-                        startTime: 60
+                        startDelay: 60
                     }
                     {
                         type: WaveEffect
