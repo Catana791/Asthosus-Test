@@ -370,6 +370,7 @@ weapons: [
       shots: 4
       shotDelay: 30
     }
+    shake: 2
     chargeSound: green-laser-charge-early-short
     shootSound: shootSmite
     bullet: {
@@ -440,8 +441,6 @@ weapons: [
           }
         ]
       }
-
-      shake: 1
       type: BasicBulletType
       speed: 7
       damage: 50
@@ -473,14 +472,6 @@ weapons: [
       intervalSpread: 45
       bulletInterval: 8
       intervalBullet: {
-        spawnBullets: [
-          {
-            type: LightningBulletType
-            lightningLength: 4
-            damage: 10
-            lightningColor: 473b64
-          }
-        ]
         type: LaserBulletType
         damage: 30
         despawnSound: spark
