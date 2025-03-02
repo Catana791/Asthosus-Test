@@ -368,7 +368,7 @@ weapons: [
     shoot: {
       firstShotDelay: 150
       shots: 4
-      shotDelay: 20
+      shotDelay: 30
     }
     chargeSound: green-laser-charge-early-short
     shootSound: shootSmite
@@ -471,7 +471,7 @@ weapons: [
       intervalBullets: 8
       intervalRandomSpread: 0
       intervalSpread: 45
-      bulletInterval: 10
+      bulletInterval: 8
       intervalBullet: {
         spawnBullets: [
           {
