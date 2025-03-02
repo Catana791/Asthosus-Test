@@ -142,7 +142,7 @@ weapons: [
         height: 14
         speed: 3
         lifetime: 90
-        damage: 52
+        damage: 40
         pierce: true
         pierceCap: 2
       }
@@ -167,7 +167,7 @@ weapons: [
         height: 14
         speed: 3
         lifetime: 90
-        damage: 38
+        damage: 30
         pierce: true
         pierceCap: 2
       }
@@ -192,7 +192,7 @@ weapons: [
         height: 14
         speed: 3
         lifetime: 90
-        damage: 71
+        damage: 60
         pierce: true
         pierceCap: 2
       }  
