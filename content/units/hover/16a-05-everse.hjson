@@ -87,10 +87,10 @@ abilities: [
         useRotation: true
         region: asthosus-everse-radiance
         sizeTo: 36
-        lifetime: 60
+        lifetime: 120
         colorFrom: 6e5b9a
         colorTo: 6e5b9a
-        interp: slope
+        interp: fastSlow
         offset: -90
         layer: 1
         followParent: true
