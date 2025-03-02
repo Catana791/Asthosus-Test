@@ -86,11 +86,10 @@ abilities: [
         cone: 0
         useRotation: true
         region: asthosus-everse-radiance
-        sizeTo: 37
+        sizeTo: 35
         lifetime: 60
         colorFrom: 6e5b9a
-        colorTo: 473b64
-        interp: elasticOut
+        colorTo: 6e5b9a
         offset: -90
         layer: 1
         followParent: true
@@ -367,8 +366,8 @@ weapons: [
     reload: 356
     shoot: {
       firstShotDelay: 150
-      shots: 2
-      shotDelay: 10
+      shots: 4
+      shotDelay: 6
     }
     chargeSound: green-laser-charge-early-short
     shootSound: shootSmite
@@ -444,8 +443,8 @@ weapons: [
       shake: 1
       type: BasicBulletType
       speed: 7
-      damage: 100
-      splashDamage: 200
+      damage: 50
+      splashDamage: 100
       splashDamageRadius: 32
       status: asthosus-13m-04-status-energy-phasing
       statusDuration: 30
@@ -455,6 +454,7 @@ weapons: [
       hitSize: 8
       pierceCap: 2
       pierceBuilding: true
+      spin: 2
       pierce: true
       hitColor: 473b64
       backColor: 473b64
@@ -467,16 +467,16 @@ weapons: [
       trailRotation: true
       trailEffect: shootSmokeSquareSparse
       trailInterval: 3
-      intervalBullets: 3
-      intervalRandomSpread: 360
+      intervalBullets: 8
+      intervalRandomSpread: 0
+      intervalSpread: 45
       bulletInterval: 3
       intervalBullet: {
-        type: LightningBulletType
+        type: LaserBulletType
         damage: 30
         despawnSound: spark
-        lightningLength: 3
-        lightningLengthRand: 5
-        lightningColor: 473b64
+        width: 3
+        length: 30
       }
     }
   }
