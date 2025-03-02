@@ -89,7 +89,7 @@ abilities: [
         sizeTo: 36
         lifetime: 120
         colorFrom: 6e5b9a
-        colorTo: 6e5b9a
+        colorTo: ff00ff
         interp: fastSlow
         offset: -90
         layer: 1
