@@ -445,7 +445,7 @@ weapons: [
       shots: 4
       shotDelay: 30
     }
-    shake: 2
+    shake: 4
     chargeSound: green-laser-charge-early-short
     shootSound: shootSmite
     bullet: {
@@ -527,7 +527,7 @@ weapons: [
       width: 17
       height: 21
       hitSize: 8
-      pierceCap: 2
+      pierceCap: 4
       pierceBuilding: true
       spin: 2
       pierce: true
