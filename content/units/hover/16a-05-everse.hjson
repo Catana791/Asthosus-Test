@@ -470,13 +470,14 @@ weapons: [
       intervalBullets: 8
       intervalRandomSpread: 0
       intervalSpread: 45
-      bulletInterval: 3
+      bulletInterval: 10
       intervalBullet: {
         type: LaserBulletType
         damage: 30
         despawnSound: spark
-        width: 3
-        length: 30
+        width: 6
+        length: 36
+        colors: [8f7eb8, 473b64, ffffff]
       }
     }
   }
