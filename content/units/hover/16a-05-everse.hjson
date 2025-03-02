@@ -472,6 +472,14 @@ weapons: [
       intervalSpread: 45
       bulletInterval: 10
       intervalBullet: {
+        spawnBullets: [
+          {
+            type: LightningBulletType
+            lightningLength: 4
+            damage: 10
+            lightningColor: 473b64
+          }
+        ]
         type: LaserBulletType
         damage: 30
         despawnSound: spark
