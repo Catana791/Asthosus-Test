@@ -1,0 +1,9 @@
+type: Wall
+health: 631
+size: 1
+customShadow: true
+placeablePlayer: false
+drawTeamOverlay: false
+buildVisibility: editorOnly
+squareSprite: false
+requirements: []
