@@ -86,10 +86,11 @@ abilities: [
         cone: 0
         useRotation: true
         region: asthosus-everse-radiance
-        sizeTo: 35
+        sizeTo: 36
         lifetime: 60
         colorFrom: 6e5b9a
         colorTo: 6e5b9a
+        interp: slope
         offset: -90
         layer: 1
         followParent: true
